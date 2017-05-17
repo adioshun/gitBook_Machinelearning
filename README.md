@@ -1,3 +1,12 @@
-# My Awesome Book
+# 자료 출처 
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+
+
+
+
+
+## 
+
+[동영상](http://seslab.kaist.ac.kr/xe2/page_Dogc43), [목차](https://1drv.ms/w/s!AkdMyVHUt0botUsxidvyzNvPVM0G)
+
+
