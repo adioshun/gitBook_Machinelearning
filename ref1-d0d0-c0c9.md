@@ -118,5 +118,5 @@
 - 해결책 : h(n)에 대응하는 휴리스틱 함수 H(n)사용
     - F(n) = g(n) + H(n) 
     
-      
+![](http://i.imgur.com/oL22PYp.png)      
 		
