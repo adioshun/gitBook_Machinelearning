@@ -92,8 +92,16 @@
 ## 2. 언덕 오르기 방법(hill climbing method)
 - 지역 탐색(local search), 휴리스틱 탐색(heuristic search)
 - 현재 노드에서 휴리스틱에 의한 평가값이 가장 좋은 이웃 노드(주변을 보면서) 하나를 확장해 가는 탐색 방법
+    - 활용 정보 : 이웃 노드의 높이 
 - 단점: 국소 최적해(local optimal solution)에 빠질 가능성
 
 ![](http://i.imgur.com/c7lcO66.png)
+
+## 3. 최상 우선 탐색(best-first search)
+- 확장 중인 노드들 중에서 목표 노드까지 남은 거리가 가장 짧은 노드를 확장하여 탐색
+    - 활용 정보 : 목표노드 상태와 다른 것 
+- 남은 거리를 정확히 알 수 없으므로 **휴리스틱** 사용
+
+![](http://i.imgur.com/lpOVutV.png)
 
 
