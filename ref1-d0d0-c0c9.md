@@ -120,9 +120,7 @@
     
 ![](http://i.imgur.com/oL22PYp.png)      
 
-# 게임에서의 탐색	
-
-## 1. 게임 트리(game tree)
+# 게임에서의 탐색- 게임 트리(game tree)
 - 상대가 있는 게임에서 자신과 상대방의 가능한 게임 상태를 나타낸 트리
     - ex: 보드게임 = 틱-택-톡(tic-tac-toc), 바둑, 장기, 체스 등
 - 게임의 결과는 마지막에 결정
@@ -130,7 +128,7 @@
 
 ![](http://i.imgur.com/jsnwtDz.png)
 
-### 1.1 mini-max 알고리즘(mini-max algorithm)
+## 1. mini-max 알고리즘(mini-max algorithm)
 - MAX 노드
     - 자신에 해당하는 노드로 자기에게 유리한 최대값 선택
 - MIN 노드
@@ -138,10 +136,18 @@
 - 단말 노드부터 위로 올라가면서 최소(minimum)-최대(maximum) 연산을 반복하여 자신이 선택할 수 있는 방법 중 가장 좋은 것은 값을 결정
 
 ![](http://i.imgur.com/b6kDB82.png)
-### 1.2 a-b 가지치기 (prunning)
+## 2. a-b 가지치기 (prunning)
 - 검토해 볼 필요가 없는 부분을 탐색하지 않도록 하는 기법
 - 깊이 우선 탐색으로 제한 깊이까지 탐색을 하면서, MAX 노드와 MIN 노
 드의 값 결정
     - a-자르기(cut-off) : MIN 노드의 현재값이 부모노드의 현재 값보다 같거나 작으면, 나머지 자식 노드 탐색 중지
     - b-자르기 : MAX 노드의 현재값이 부모노드의 현재 값보다 같거나 크면, 나머지 자식 노드 탐색 중지
 
+![](blob:http://imgur.com/732d9b72-2ce0-4d14-892d-47d7b11b5cbe)
+
+## 3. 몬테카를로 트리 탐색(Monte Carlo Tree Search, MCTS)
+- 탐색 공간(search space)을 무작위 표본추출(random sampling)을 하면서, 탐색트리를 확장하여 가장 좋아 보이는 것을 선택하는 휴리스틱 탐색 방법
+- 4개 단계를 반복하여 시간이 허용하는 동안 트리 확장 및 시뮬레이션 선택(selection)
+    - 확장(expansion)
+    - 시뮬레이션(simulation) : 몬테카를로 시뮬레이션
+    - 역전파(back propagation)
