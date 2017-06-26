@@ -1,4 +1,4 @@
-> 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료](http://docsplayer.org/42154721-Microsoft-powerpoint-ai-2-%ED%83%90%EC%83%89%EA%B3%BC-%EC%B5%9C%EC%A0%81%ED%99%94-i.html)
+> 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료1](http://docsplayer.org/42154721-Microsoft-powerpoint-ai-2-%ED%83%90%EC%83%89%EA%B3%BC-%EC%B5%9C%EC%A0%81%ED%99%94-i.html), [자료2](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/2.pdf)
 
 탐색
 - 상태 공간과 탐색
@@ -193,4 +193,8 @@
 |-|
 |- 특정 확률 분포로 부터 무작위 표본(random sample)을 생성하고, <br>- 이 표본에 따라 행동을 하는 과정을 반복하여 결과를 확인하고,<br>- 이러한 결과확인 과정을 반복하여 최종 결정을 하는 것|
 |모든 경우를 수행 하면서 특정 수에서 이길 확률을 이용하여 정리|
+
+# 제약조건 만족 문제 
+
+
 
