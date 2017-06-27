@@ -76,13 +76,33 @@ $$ posterior = \frac{MLE \times Prior Knowledge}{Normalizing Constant}= P(\theta
 
 ###### Step 1. 상수빼고 비례기호로 식 재 정의 
 
-P(\theta |D) \propto P(D|\theta )P(\theta) 
+$$ P(\theta |D) \propto P(D|\theta )P(\theta) $$
+  
+
+###### Step 2. 분포에서 값 가져 오기(??) 
+- $$P(D|\theta) = \theta^{aH}(1-\theta)^{aT} $$ = 이항분포에서 가져 오기 
+
+- $$P(\theta)$$ = 사전지식 = Beta 분포($$P(\theta)=\frac{\theta^{\alpha-1}(1-\theta)^{\beta-1}}{B(\alpha,\beta)}$$)에서 가져 오기
 
 
+> 왜 사전지식을 Beta 분포에서 가져 오나? 어느 분포에서 가져 와도 상관 없으나, Beta분포가 예시에는 적절함
+
+###### Step 3. 식 재 정리 
+
+|위식 $$P(\theta)=\frac{\theta^{\alpha-1}(1-\theta)^{\beta-1}}{B(\alpha,\beta)}$$에서 $$B(\alpha,\beta)$$는 $$\theta$$와 관계 없으므로 제거 하여 아래 식 생성, 제거 하였으므로 $$\propto$$표시 |
+|-|
+
+$$ P(\theta |D) \propto \theta^{aH}(1-\theta)^{aT} \cdot \theta^{\alpha-1}(1-\theta)^{\beta-1} $$
+$$ P(\theta |D) \propto \theta^{aH+\alpha-1}(1-\theta)^{aT + \beta-1}$$ 
 
 
+$$ \hat{\theta} = \frac{aH+\alpha-1}{(aH+\alpha-1)+(aT + \beta-1)}$$
 
+> MLE에 비해 MAP에 $$\alpha, \beta$$가 식에 추가적으로 존재 
 
+> 시도횟수가 많으면 점점 사라짐. 하지만, 시도횟수가 적으면 사전 정보는 사라지지 않고 중요한 역할 차지 
+
+> 즉, 시도가 적으면 MLE $$\neq$$ MAP이고, 많으면 MLE = MAP
 
 
 
