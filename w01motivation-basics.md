@@ -108,6 +108,11 @@ $$ \hat{\theta} = \frac{aH+\alpha-1}{(aH+\alpha-1)+(aT + \beta-1)}$$
 
 ## 4. 확률과 분포 
 
+## 4.1 확률
+MLE/MAP를 통해서 알아본값 
+
+
+
 
 
 ---
