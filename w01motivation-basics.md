@@ -45,7 +45,26 @@ $$ \rightarrow \theta = \frac{aH}{aT+aH} $$
 
 즉, $$\frac{관측값}{전체값}$$
 
+
+### 2.4 에러율 정의 (PAC)
+PAC (Probably Approximately Correct) learning
+- 이론적으로 모델의 성능을 측정하는 방법 중 하나
+- “높은 확률로 (Probably)” 주어진 모델이 “작은 error를 가진다 (Approximatly Correct)”
+
+호에프딩의 부등식(Hoeffding's inequality)으로 에러 바운더리를 표현 하기 
+$$P(|\hat{\theta} - \theta^*|\geq \epsilon)\leq 2e^{-2N\epsilon^2}$$
+    - $$\theta^*$$= 실제값, $$\epsilon$$=에러바운드 
+
+> 에러바운드(식 우측$$\epsilon$$)가 커지면 확률(식 좌측)은 작아짐
+
+> 시행횟수(식 우측n)가 커지면 확률(식 좌측)은 작아짐 
+
 ## 3. 최대 사후 확률 (MAP)
 maximum a posteriori, MAP
+
+
+
+
+
 
 ## 4. 확률과 분포 
