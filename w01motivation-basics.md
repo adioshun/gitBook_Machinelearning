@@ -59,8 +59,25 @@ $$P(|\hat{\theta} - \theta^*|\geq \epsilon)\leq 2e^{-2N\epsilon^2}$$
 
 > 시행횟수(식 우측n)가 커지면 확률(식 좌측)은 작아짐 
 
-## 3. 최대 사후 확률 (MAP)
-maximum a posteriori, MAP
+## 3. 최대 사후 확률 (MAP[^1])
+
+### 3.1 정의 
+사전정보(추정정보,Prior Knowledge)를 이용하여 $$\theta$$구하기 by Bayes
+
+### 3.2 수식 
+$$ posterior = \frac{MLE \times Prior Knowledge}{Normalizing Constant}= P(\theta|D)=\frac{P(D|\theta)P(\theta)}{P(D)} $$
+
+> P(D)는 이미 정해진것이고, 중요한 영향을 안 줌, 빼고 계산
+
+> 값을 뻇으므로 `=` 이 아닌 `비례기호($$ \propto $$)` 사용
+
+
+### 3.3 문제 풀이 
+
+###### Step 1. 상수빼고 비례기호로 식 재 정의 
+
+$$P(\theta|D) \propto P(D|\theta)P(\theta)$$
+
 
 
 
@@ -68,3 +85,8 @@ maximum a posteriori, MAP
 
 
 ## 4. 확률과 분포 
+
+
+
+---
+[^1]: maximum a posteriori, MAP
