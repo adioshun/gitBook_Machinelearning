@@ -76,7 +76,9 @@ $$ posterior = \frac{MLE \times Prior Knowledge}{Normalizing Constant}= P(\theta
 
 ###### Step 1. 상수빼고 비례기호로 식 재 정의 
 
-$$ P(\theta|D) \propto P(D|\theta)P(\theta) $$
+P(\theta |D) \propto P(D|\theta )P(\theta) 
+
+
 
 
 
