@@ -69,14 +69,14 @@ $$ posterior = \frac{MLE \times Prior Knowledge}{Normalizing Constant}= P(\theta
 
 > P(D)는 이미 정해진것이고, 중요한 영향을 안 줌, 빼고 계산
 
-> 값을 뻇으므로 `=` 이 아닌 `비례기호($$ \propto $$)` 사용
+> 값을 뻇으므로 = 이 아닌 비례기호($$ \propto $$) 사용
 
 
 ### 3.3 문제 풀이 
 
 ###### Step 1. 상수빼고 비례기호로 식 재 정의 
 
-$$P(\theta|D) \propto P(D|\theta)P(\theta)$$
+$$ P(\theta|D) \propto P(D|\theta)P(\theta) $$
 
 
 
