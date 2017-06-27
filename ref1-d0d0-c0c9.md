@@ -1,3 +1,5 @@
+![](http://i.imgur.com/DtvU2Kc.png)
+
 > 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료1](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/2.pdf), [자료2](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/3.pdf)
 
 탐색
@@ -208,3 +210,179 @@
 
 ## 2. 제약조건 전파(constraint propagation)
 - 인접 변수 간의 제약 조건에 따라 각 변수에 허용될 수 없는 값들을 제거하는 방식
+
+---
+> 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료1](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/2.pdf), [자료2](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/3.pdf)
+
+
+최적화 
+- 목적함수
+- 조합 최적화
+    - 유전 알고리즘 
+    - 메타 휴리스틱
+- 함수 최적화 
+    - 함수 최적화 문제
+    - 제약조건 최적화 
+    - 회귀문제 최적화 - 최소 평균제곱법
+    - 최대 경사법 
+
+# 목적 함수 
+- 최적화(optimization): 여러 가지 허용되는 값들 중에서 주어진 기준(=목적함수)을 가장 잘 만족하는 것을 선택하는 것
+
+- 목적함수(objective function): 기준을 나타내는 함수, 최소 또는 최대가 되도록 만들려는 함수
+
+
+
+
+# 조합 최적화 (combinatorial optimization)
+- 순회 판매자 문제(TSP)와 같이 주어진 항목들의 조합으로 해가 표현되는 최적화 문제
+    - 목적함수 : 경로의 길이
+
+![](http://i.imgur.com/sIufSAP.png)
+
+> NP-Hard Problem: 다 해보지 않고는 최적해를 알수 없음
+
+일반적으로 최적해가 아닌 준-최적해를 주로 찾음 : 유전알고리즘, 
+
+## 1. 유전 알고리즘(genetic algorithm, GA)
+- 생물의 진화를 모방한 집단 기반의 확률적 탐색 기법(John Holland, 1975)
+- 대표적인 진화 연산(evolutionary computation)의 하나
+    - 유전 알고리즘, 유전자 프로그래밍(genetic programming), 전화 전략(evolutionary strategy) 
+- 최적해 보장은 
+
+```
+[생물의 진화]
+염색체(chromosome)의 유전자(gene)들이 개체 정보 코딩
+
+적자생존(fittest survival)/자연선택(natural selection)
+– 환경에 적합도가 높은 개체의 높은 생존 및 후손 번성 가능성
+– 우수 개체들의 높은 자손 증식 기회
+– 열등 개체들도 작지만 증식 기회
+
+집단(population)의 진화
+– 세대(generation) 집단의 변화
+
+형질 유전과 변이
+– 부모 유전자들의 교차(crossover) 상속
+– 돌연변이(mutation)에 의한 변이
+```
+
+###### [참고] 생물 진화와 문제 해결의 관계
+- 개체 = 후보 해(candidate solution)
+- 환경 = 문제(problem)
+- 적합도 = 해의 품질(quality)
+
+![](http://i.imgur.com/GGG6yed.png)
+
+[초기 모집단 생성]
+- 모집단(population) : 동시에 존재하는 염색체들의 집합
+
+(적합도 함수, fitness function)
+- 후보해가 문제의 해(solution)로서 적합한 정도를 평가하는 함수
+
+[부모 개체 선택(selection)]
+- 높은 적합도의 개체가 새로운 개체를 생성할 확률이 높도록 함
+- 적합도에 비례하는 선택확률
+    - 예. 개체 1의 적합도: 10, 개체 2의 적합도: 5, 개체 3의 적합도: 15
+
+(유전 연산자, genetic operator) 
+- 새로운 개체 생성
+
+![](http://i.imgur.com/MBCCve9.png)
+
+(유전 알고리즘) 
+- 세대(generation) 교체 : 엘리트주의(elitism)
+    - 우수한 개체를 다음 세대에 유지
+    
+![](http://i.imgur.com/kEbPt86.png)
+    
+
+## 2. 메타 휴리스틱 
+특징
+- 최적해(optimal solution)을 보장하지는 않지만 준최적해(suboptimal solution)을 빠르게 찾는 알고리즘
+
+종류 
+- 유전 알고리즘
+- 모방 알고리즘(memetic algorithm)
+- 입자 군집 최적화(particle swarm optimization, PSO)
+- 개미 집단(ant colony) 알고리즘
+- 타부 탐색(Tabu search) : 이미 했던건 다시 안함
+- 담금질 기법(simulated annealing)
+- 하모니 탐색(Harmonic search) 
+
+![](http://i.imgur.com/HkdrKog.png)
+
+
+
+# 함수 최적화 
+
+## 1. 함수 최적화 문제
+정의 
+- 어떤 목적 함수(objective function)가 있을 때, 이 함수를 최대로 하거나 최소로 하는 변수 값를 찾는 최적화 문제
+
+> 아래로 볼록한 함수(=Convex func)의 최적값은, `미분 = 0` 하여 문제 풀이
+
+![](http://i.imgur.com/azje4l3.png)
+
+
+## 2. 제약조건 최적화(constrained optimization)
+정의
+- 제약조건(constraints)을 만족시키면서 목적함수를 최적화시키는 변수값들을 찾는 문제
+
+활용예
+- 기계학습 방법인 SVM의 학습에서 사용
+
+![](http://i.imgur.com/abw4L2A.png)
+
+|![](http://i.imgur.com/SIxftXt.png)|![](http://i.imgur.com/7fdz749.png)|
+|-|-|
+|빨간선이 가능해|아래로 볼록한 함수(=Convex func)의 최적값은, `미분 = 0` 하여 문제 풀이|
+
+
+###### 최적화 순서
+Lagrange함수(제약조건 + 목적 함수 결함)정의로 시작 
+
+![](http://i.imgur.com/3aSfl1f.png)
+- 기존 제약 조건 + 목적함수에 임의의 라그랑주 승수 결합
+- 라그랑주 승수 $$\alpha$$는 항상 0보다 커야 함 
+
+![](http://i.imgur.com/bxPkk5i.png)
+
+1. 목적 재정의 : $$min_{x_1x_2} \in FS f(X_1, X_2) $$는 $$L(x_1,x_2,\lambda, \alpha)$$에 대해서 $$\lambda, \alpha$$를 가지고 최대화한 값을 $$x_1, x_2$$에 대해 최소한 값과 같은 것을 의미 한다. 
+2. min, max의 위치 변경하여 식 생성
+    - $$min_{x_1,x_2} max_{\lambda, \alpha} L(x_1,x_2,\lambda, \alpha) $$ = 큰것 중에 작은거 선택
+    - $$ max_{\lambda, \alpha} min_{x_1,x_2} L(x_1,x_2,\lambda, \alpha) $$ = 작은것 중에 큰거 선택
+    - 큰것중에 작은거 선택한것이 크기 때문에 다음 식 생성 가능  : $$min_{x_1,x_2} max_{\lambda, \alpha} \geq max_{\lambda, \alpha} min_{x_1,x_2}$$
+3. 쌍대(Dual Function) 함수 찾기 : $$min_{x_1,x_2} L(x_1,x_2,\lambda, \alpha) = L_d(\lambda, \alpha) $$
+4. 식 재정의 : $$min_{x_1,x_2} max_{\lambda, \alpha}L(x_1,x_2,\lambda, \alpha) \geq max_{\lambda, \alpha}L_d(\lambda, \alpha) $$
+
+> 결국 $$min_{x_1x_2} \in FS f(X_1, X_2) $$ 는 Dual function을 $$\lambda, \alpha$$에 대하여 최대화 하는 값을 찾으면 됨, 이와 함께 상보적 여유성도 만족 시키도록 함 
+
+###### 최적화 예시 
+![](http://i.imgur.com/ZfJrIaw.png)
+
+
+## 3. 회귀(regression) 문제의 최적 함수
+- 주어진 데이터를 가장 잘 근사(近似, approximation)하는 함수
+- 최소 평균제곱법(least mean square method)
+    - 오차 함수(error function) 또는 에너지 함수(energy function)를 최소로 하는 함수를 찾는 방법
+
+![](http://i.imgur.com/ZjZvjXp.png)
+
+
+$$E = \frac{1}{2N} \sum^n_{i=1}(y_1 - f(x_i))^2$$에서 $$\frac{1}{2N} $$의 N은 수의 양이 많기 떄문에 (평균화??), 2는 이후에 미분시 사라지기 때문에 적용 
+
+> 일반적으로 E를 찾지 못하므로 `최적화 문제`방법으로 해결 
+
+## 4. 최대 경사법(gradient descent method, 경사 하강법)
+- 함수의 최소값 위치를 찾는 문제에서 오차 함수의 `그레디언트(gradient)` 반대 방향으로 조금씩 움직여 가며 최적의 파라미터를 찾으려는 방법
+    - 그레디언트: 각 파라미터에 대해 편미분한 벡터 $$\left(\frac{\partial E}{\partial a}, \frac{\partial E}{\partial b}\right)$$
+- 데이터의 입력과 출력을 이용하여 각 파라미터에 대한 그레디언트를 계산하여 파라미터를 반복적으로 조금씩 조정
+
+![](http://i.imgur.com/Esii4Ll.png)
+
+- 활용 : 회귀모델, 신경망 등의 기본 학습 방법
+
+- 단점 : 국소해(local minima)에 빠질 위험
+
+- 해결책 : 개선된 형태의 방법 존재(conjugate gradient method 등)
