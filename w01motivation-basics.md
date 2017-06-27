@@ -27,14 +27,25 @@ $$ \hat\theta = argmax_\theta P(D|\theta)   $$
 ###### Step 1. 식 변환 
 $$ \hat\theta = argmax_\theta P(D|\theta) = argmax_\theta\theta^{aH}(1- \theta)^{aT}   $$
 
-###### Step 1. log()를 이용하여 자승을 쉽게 변환 
+###### Step 2. log()를 이용하여 자승을 쉽게 변환 
 
 $$ \hat\theta = argmax_\theta \ln P(D|\theta) = argmax_\theta \ln \{\theta^{aH}(1- \theta)^{aT}\}   = argmax_\theta \{aH \ln \theta + aT \ln(1- \theta)\} $$
 
 > log를 이용하면 값은 달라 지지만, P가 최대가 되는 점과 = log(p)가 최대화 한점은 같음 
 
+###### Step 3. Maximization problem으로 변했으므로 이를 해결
+- 즉, 식에 있는 변수 중에서 $$\theta$$을 최적하여 수식 전체값을 최대(argmax)화 하는 문제
+- 최대화 = 미분하여  0 되게 
 
-## 3. 최대 사후 확률
+$$ \frac{d}{d \theta}(aH \ln \theta + aT \ln(1- \theta) = 0 $$
 
+$$\rightarrow \frac{aH}{\theta} - \frac{aT}{1-\theta}=0$$
+
+$$ \rightarrow \theta = \frac{aH}{aT+aH} $$
+
+즉, $$\frac{관측값}{전체값}$$
+
+## 3. 최대 사후 확률 (MAP)
+maximum a posteriori, MAP
 
 ## 4. 확률과 분포 
