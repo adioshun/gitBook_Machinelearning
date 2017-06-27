@@ -2,12 +2,6 @@
 
 > 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료1](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/2.pdf), [자료2](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/3.pdf)
 
-탐색
-- 상태 공간과 탐색
-- 맹목적 탐색
-- 정보이용 탐색
-- 게임에서의 탐색
-- 제약조건 만족 문제 
 
 # 상태공간과 탐색 
 
@@ -212,19 +206,7 @@
 - 인접 변수 간의 제약 조건에 따라 각 변수에 허용될 수 없는 값들을 제거하는 방식
 
 ---
-> 출처 : 충북대학교 [이건명 교수](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc), [자료1](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/2.pdf), [자료2](http://elearning.kocw.net/KOCW/document/2016/chungbuk/leegeonmyeong/3.pdf)
 
-
-최적화 
-- 목적함수
-- 조합 최적화
-    - 유전 알고리즘 
-    - 메타 휴리스틱
-- 함수 최적화 
-    - 함수 최적화 문제
-    - 제약조건 최적화 
-    - 회귀문제 최적화 - 최소 평균제곱법
-    - 최대 경사법 
 
 # 목적 함수 
 - 최적화(optimization): 여러 가지 허용되는 값들 중에서 주어진 기준(=목적함수)을 가장 잘 만족하는 것을 선택하는 것
