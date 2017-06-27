@@ -108,12 +108,21 @@ $$ \hat{\theta} = \frac{aH+\alpha-1}{(aH+\alpha-1)+(aT + \beta-1)}$$
 
 ## 4. 확률과 분포 
 
-## 4.1 확률
+### 4.1 확률
 MLE/MAP를 통해서 알아본값 
 
 
+### 4.2 확률 분포
+- A func. mapping an event to a probability 
 
+#### A. Normal Distribution 
 
+#### B. Beta Distribution 
+- 범위가 정해져 있는 경우 : eg. 확률 
+
+#### C. Binomial Distribution 
+- O or 1 등 두개의 값이 나올경우 : eg. 동전 던지기 
+- Discrete 상
 
 ---
 [^1]: maximum a posteriori, MAP
