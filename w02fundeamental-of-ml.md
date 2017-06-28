@@ -41,8 +41,16 @@ Linear Regression
     - 만일 Continuos한 경우는 $$\sum \rightarrow \int $$ 적분으로 변환하여 처리 
 
 
-- Conditional	Entropy
-    - We are interested in the	entropy	of	the	class	given	a	feature	variable
-    - Need	to	introduce	a	given	condition	in	the	entropy
-    - 일반적으로  Conditional	Entropy가 적용되는 경우가 많음 
-    - 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_y P(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
+#### A. Conditional Entropy
+- We are interested in the	entropy	of	the	class	given	a	feature	variable
+- Need	to	introduce	a	given	condition	in	the	entropy
+- 일반적으로  Conditional	Entropy가 적용되는 경우가 많음 
+- 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_y P(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
+    - $$\sum_x P(X=x)$$로 가중치를 주고 있음 
+
+#### B. Conditional Entropy 예시 
+
+![](http://i.imgur.com/plj5Ru5.png)
+
+$$H(Y|A1)$$ : A1을 주었을때 H의 불확실성은?
+
