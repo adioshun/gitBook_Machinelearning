@@ -58,5 +58,6 @@ Information Gain = $$IG(Y, A_i)=H(Y) - H(Y|A_i)$$
 - 원래 H(Y)정도의 값인데  attribute를 선택Condition, H(Y|A)하는냐에 따라 값이 변하는가(차이값)
 
 ### 2.2 Top-Down Induction Algorithm.
-Many,	many	variations	in	learning	a	
-decision	tree : eg. ID3,	C4.5	CART…
+Many,many variations in learning a decision tree : eg. ID3, C4.5, CART…
+
+#### A. ID3 Algorithm
