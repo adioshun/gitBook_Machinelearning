@@ -41,3 +41,7 @@ eg. P(태풍|비, 천둥) = P(태풍|천둥)
 
 >  commander는 Y, Officer는 $$X_1, X_2$$로 볼수 있음
 
+## 4. 문제점 
+나이브 = conditional	independent	assumption
+- Problem	1:	Naïve	assumption
+- Problem	2:	Incorrect	Probability	Estimations
