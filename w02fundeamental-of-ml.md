@@ -19,4 +19,7 @@ Linear Regression
 
 ## 1. Rule based machine learning
 
+### 1.1 Find-S algorithm 
+
+
 
