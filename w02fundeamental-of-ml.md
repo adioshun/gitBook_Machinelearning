@@ -33,6 +33,12 @@ Linear Regression
 
 ![](http://i.imgur.com/RJ6TTK3.png)
 
+문제점 : 현재 데이터를 가지고는 잘 판단 하지만, 미래 데이터에 대하여서는 보장 할수 없음 
+-  The	training dataset will not be a perfect sample of the	
+real world: Noise, Inconsistencies
+
+> 이러한 한계로 선택트리가 실세계에서는 잘 사용 안됨 
+
 ### 2.1 Entropy 
 - Random Variable이 얼마나 불확실성이 높은지/낮은지 평가 하는 지표 
 - Higher	entropy	means	more	uncertainty
