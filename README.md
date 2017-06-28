@@ -13,9 +13,9 @@
 - 강화 학습
 
 ## Introduction-to-Artificial-Intelligence-Machine-Learning
-KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page_Dogc43),[Youtube](https://www.youtube.com/channel/UC9caTTXVw19PtY07es58NDg/videos?sort=da&view=0&flow=list&live_view=500), [목차](https://1drv.ms/w/s!AkdMyVHUt0botUsxidvyzNvPVM0G), [강의자료](https://github.com/aailabkaist/Introduction-to-Artificial-Intelligence-Machine-Learning)
+KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page_GBex27),[Youtube](https://www.youtube.com/watch?v=t6S7ekXz3aY&list=PLt9QR0WkC4WVszuogbmIIHIIQ2RMI78RC), [목차](https://1drv.ms/w/s!AkdMyVHUt0botUsxidvyzNvPVM0G), [강의자료](https://github.com/aailabkaist/Introduction-to-Artificial-Intelligence-Machine-Learning)
 
-* Week 1. Motivation and basics
+* <del>Week 1. Motivation and basics</del>
 * Week 2. Fundamentals of machine learning
 * Week 3. Naive Bayes Classifier
 * Week 4. Logistic Regression Classifier
