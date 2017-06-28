@@ -33,3 +33,16 @@ Linear Regression
 
 ![](http://i.imgur.com/RJ6TTK3.png)
 
+### 2.1 Entropy 
+- Random Variable이 얼마나 불확실성이 높은지/낮은지 평가 하는 지표 
+- Higher	entropy	means	more	uncertainty
+- 공식 : $$H(X) = - \sum_x P(X=x)\log_b P(X=x)$$
+    - $$ \sum_x$$ 의 x는 동전던지기는 F,T/ 주사위는 1~6 을 의미, Discrete한 경우 
+    - 만일 Continuos한 경우는 $$\sum \rightarrow \int $$ 적분으로 변환하여 처리 
+
+
+- Conditional	Entropy
+    - We are interested in the	entropy	of	the	class	given	a	feature	variable
+    - Need	to	introduce	a	given	condition	in	the	entropy
+    - 일반적으로  Conditional	Entropy가 적용되는 경우가 많음 
+    - 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_y P(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
