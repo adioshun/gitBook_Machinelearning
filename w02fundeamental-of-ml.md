@@ -67,3 +67,5 @@ Information Gain = $$IG(Y, A_i)=H(Y) - H(Y|A_i)$$
 Many,many variations in learning a decision tree : eg. ID3, C4.5, CART…
 
 #### A. ID3 Algorithm
+
+## 3. Linear Regression
