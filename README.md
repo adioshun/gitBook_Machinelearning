@@ -17,7 +17,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 
 * <del>Week 1. Motivation and basics</del>
 * <del>Week 2. Fundamentals of machine learning</del>
-* Week 3. Naive Bayes Classifier
+* <del>Week 3. Naive Bayes Classifier</del>
 * Week 4. Logistic Regression Classifier
 * Week 5. Support Vector Machine Classifier
 * Week 6. Training/Testing and Regularization
