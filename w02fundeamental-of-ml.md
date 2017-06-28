@@ -20,6 +20,16 @@ Linear Regression
 ## 1. Rule based machine learning
 
 ### 1.1 Find-S algorithm 
+![](http://i.imgur.com/XGPSCx8.png)
+
+- Candidate elimination algro.
+
+- 문제점 : "we	don’t	live	in	the	perfect	world"
 
 
+## 2. Decision	Tree
+
+통계 기법 활용 학습 방법 
+
+![](http://i.imgur.com/RJ6TTK3.png)
 
