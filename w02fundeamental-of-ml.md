@@ -45,12 +45,18 @@ Linear Regression
 - We are interested in the	entropy	of	the	class	given	a	feature	variable
 - Need	to	introduce	a	given	condition	in	the	entropy
 - 일반적으로  Conditional	Entropy가 적용되는 경우가 많음 
-- 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_y P(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
+- 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_yP(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
     - $$\sum_x P(X=x)$$로 가중치를 주고 있음 
 
 #### B. Conditional Entropy 예시 
 
 ![](http://i.imgur.com/plj5Ru5.png)
 
-$$H(Y|A1)$$ : A1을 주었을때 H의 불확실성은?
+$$H(Y|A1)$$ : A1을 Condition으로 주었을때 Y의 Entropy(불확실성)는 어떻게 되는가? 
 
+Information Gain = $$IG(Y, A_i)=H(Y) - H(Y|A_i)$$
+- 원래 H(Y)정도의 값인데  attribute를 선택Condition, H(Y|A)하는냐에 따라 값이 변하는가(차이값)
+
+### 2.2 Top-Down Induction Algorithm.
+Many,	many	variations	in	learning	a	
+decision	tree : eg. ID3,	C4.5	CART…
