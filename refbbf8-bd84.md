@@ -54,9 +54,35 @@
 
 > 출처 : [waylight3](http://waylight3.blog.me/220221644620)
 
-# 지수 로그 함수의 미분 로피탈 공식
-
-
+# 지수 함수의 미분 
 > 출처 : [지수 로그 함수의 미분 로피탈 공식](https://youtu.be/si6ckKuXNBo)
+
+
+
+미분 = 원식 * 미분식 * ln a
+
+$$y = a^{x{^2}+2x+3} \Rightarrow y\prime = a^{x{^2}+2x+3} \cdot (2x+2)\cdot \ln a$$ 
+
+
+# 지수 로그 함수의 미분 
+
+미분 = 원식 * 미분식 * ln a
+
+$$y=e^x \Rightarrow y\prime = e^x$$
+
+$$y=e^{x^2+x} \Rightarrow y\prime = e^{x^2+x} \cdot (2x+1) $$
+
+> 미분을 했어도 값이 줄지 않음, $$\ln$$=1이어서 생략
+
+## 로그 함수의 미분 
+
+$$ y = \log_a x \Rightarrow y\prime = \frac{1}{(x)\ln(a)}$$
+
+로그 이후의 값으로 1/n을 만들고, 로그 밑 값으로 ln a만듬
+
+$$ y = \log_a (x^2+x) \Rightarrow y\prime = \frac{1}{(x^2+x)\cdot \ln (a)} $$
+
+
+
 
 
