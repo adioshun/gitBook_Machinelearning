@@ -63,6 +63,7 @@
 
 $$y = a^{x{^2}+2x+3} \Rightarrow y\prime = a^{x{^2}+2x+3} \cdot (2x+2)\cdot \ln a$$ 
 
+> $$\ln$$=자연 로그= 실수(e)를 밑으로 하는 로그(log)
 
 # 지수 로그 함수의 미분 
 
@@ -78,11 +79,16 @@ $$y=e^{x^2+x} \Rightarrow y\prime = e^{x^2+x} \cdot (2x+1) $$
 
 $$ y = \log_a x \Rightarrow y\prime = \frac{1}{(x)\ln(a)}$$
 
-로그 이후의 값으로 1/n을 만들고, 로그 밑 값으로 ln a만듬
+- 로그 이후의 값으로 1/n을 만들고, 로그 밑 값으로 ln a만듬
 
 $$ y = \log_a (x^2+x) \Rightarrow y\prime = \frac{1}{(x^2+x)\cdot \ln (a)} $$
 
 
+
+$$y = \ln x = \log_e x \Rightarrow y\prime = \frac{1}{x}$$
+$$y = \ln (x^2+2x) \Rightarrow y\prime = \frac{1}{x^2+2x}$$
+
+> ln은 쓰지 않음 
 
 
 
