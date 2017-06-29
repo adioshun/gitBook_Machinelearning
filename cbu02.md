@@ -213,3 +213,16 @@ eg. 1 (단정적 신뢰), -1 (단정적 불신)
 - 확률분포를 요소함수(factor)들의 곱으로 표현
 
 ## 10. 함수 기반 지식 표현 
+기호 대신 수치값과 수치값을 계산하는 함수를 사용하여 지식을 표현, $$y=f(x)$$
+
+- 회귀분석(regression analysis)
+- 신경망(neural network)
+- SVM(support vector machine)
+- 딥러닝(deep learning)
+
+> 다음장에서 중심적으로 다룰 예정 
+
+## 11. 규칙기반 시스템 (rule-based system)
+- 지식을 규칙의 형태로 표현
+- 주어진 문제 상황에 적용될 수 있는 규칙들을 사용하여 문제에 대한 해를 찾도록 하는 지식 기반 시스템(knowledge-based system)
+- 전문가 시스템(expert system)을 구현하는 전형적인 형태
