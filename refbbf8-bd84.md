@@ -85,10 +85,16 @@ $$ y = \log_a (x^2+x) \Rightarrow y\prime = \frac{1}{(x^2+x)\cdot \ln (a)} $$
 
 
 
-$$y = \ln x = \log_e x \Rightarrow y\prime = \frac{1}{x}$$
+$$y = \ln x = \log_e x \Rightarrow y\prime = \frac{1}{x (\ln e) } = \frac{1}{x}$$
 $$y = \ln (x^2+2x) \Rightarrow y\prime = \frac{1}{x^2+2x}$$
 
 > ln은 쓰지 않음 
+
+
+###### [로피탈 공식]
+
+
+
 
 
 
