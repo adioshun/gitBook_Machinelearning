@@ -8,7 +8,7 @@
 ## 인공지능
 충북대학교 이건명 교수, 2016, [[링크:Kocw.net]](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
 - <del>탐색과 최적화 1~2</del>
-- 지식표현 및 추론 1~4
+- <del>지식표현 및 추론 1~4</del>
 - 기계학습 1~4
 - 강화 학습
 
