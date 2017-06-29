@@ -84,7 +84,7 @@ eg.
 - 일반적으로 발생할 수 있는 전형적인 상황에 대한 절차적 지식을 일목요연하게 표현
 - 전형적인 상황에서 일어나는 일련의 사건(event)을 시간적 순서를 고려하여 기술하는 프레임과 같은 구조의 지식 표현
 
-## 온톨로지와 RDF 
+## 7. 온톨로지와 RDF 
 정의
 - 철학에서 존재론(存在論)을 가리키는 말
 - 어떤 영역의 지식을 **공유**하고 **재사용**할 수 있도록 해당 영역의 개념과 관계를 나타내는 어휘를 정의하고 이를 이용해 지식을 표현해 놓은 것
@@ -104,3 +104,38 @@ eg.
 - UMLS(Unified Medical Language System): 의료영역의 여러 용어체계를 총괄
 
 
+## 8. 불확실한 지식 표현 
+
+### 8.1 불확실성의 원인 
+#### A. 약한 관련성의 지식
+약한 인과성(weak implication)이나 애매한 연관관계(vague association)인 지식의 표현
+- 확신도(certainty degree) 사용 표현
+- 베이즈 정리(Bayesian theorem) 사용 표현
+
+#### B. 부정확한 언어 사용 
+자연어(natural language)는 본질적으로 모호하고(vague) 부정확(imprecise)
+- 퍼지이론(fuzzy theory) 사용 표현
+
+#### C. 불완전하거나(incomplete) 결손된(missing) 데이터에 기반한 지식
+- ‘알려지지 않은 것(unknown)’으로 간주하고, 근사적인 추론(approximate reasoning) 진행
+
+#### D. 상충되는 지식의 통합
+모순된 견해(contradictory opinion)와 상충된 지식(conflicting knowledge)의 통합
+- 지식 소스 별로 가중치 부여
+
+### 8.2 불확실성을 표현/다룰수 있는 방법
+
+#### A. 확신도 (certainty factor)
+규칙(rule)과 사실(fact)의 신뢰정도를 [-1,1] 구간의 값으로 표현
+eg. 1 (단정적 신뢰), -1 (단정적 불신)
+
+#### B. 확률
+베이즈 정리 (Bayesian theorem)
+
+#### C. 퍼지 이론 
+퍼지집합(Fuzzy Set)
+- 원소가 모임(collection)에 어느 정도 속한다는 것
+- 명제는 참 또는 거짓이 아니라 어느 정도는 부분적으로 참(이거나 부분적으로 거짓)
+- 소속정도(membership degree)는 [0,1] 범위의 실수값으로 표현
+
+> 키가 크다 작다가 아니라 0.7크다에 속하다로 표
