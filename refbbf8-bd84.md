@@ -45,10 +45,15 @@
  
 
 계산법
+
 |![](http://i.imgur.com/ruN0L8U.png)|![](http://i.imgur.com/pgiXrEh.png)|
 |-|-|
-|![]9http://i.imgur.com/KQZOn04.png)|![](http://i.imgur.com/rnHPMzf.png)|
-지수의 숫자를 앞으로 내리고 지수에서 그 대가로 1을 뺀다. 
+|![](http://i.imgur.com/KQZOn04.png)|![](http://i.imgur.com/rnHPMzf.png)|
+
+지수의 숫자를 앞으로 내리고 지수에서 그 대가로 1을 뺀다. 상수는 0이 된다. 
+
+> 출처 : [waylight3](http://waylight3.blog.me/220221644620)
+
 # 지수 로그 함수의 미분 로피탈 공식
 
 
