@@ -62,3 +62,25 @@ CHAPTER 18 … 가우시안 프로세스_455
 11장 최적화 알고리즘 
 12장 혼성 모델 
 <del>부록A 정보 이론</del> : cbu02,
+
+###### 패턴인식 개론, 한학용, 한빛 미디어 
+Chapter 01 | 패턴인식의 개요 
+Chapter 02 선형 대수학 : 벡터와 행렬 
+Chapter 03 기초 통계와 확률 이론 
+Chapter 04 확률변수와 확률분포 
+Chapter 05 통계적 결정이론과 확률밀도함수의 추정 
+Chapter 06 선형 분류기와 이차 분류기 
+Chapter 07 데이터 마이닝의 시작: 백터 양자화와 클러스터링
+Chapter 08 견고한 확률 모델 : 가우시안 혼합 모델(GMM) 
+Chapter 09 비모수 밀도 추정법 
+Chapter 10 주성분 분석법(PCA)과 KL 변환 
+Chapter 11 선형 판별 분석법: LDA 
+Chapter 12 결정 트리 학습 알고리즘 : ID3 
+Chapter 13 신경 세포 모델링:인공 신경망 
+Chapter 14 뇌영역 모델링 : 자기 조직화 특징 지도 
+Chapter 15 기발한 최적화 방법:유전 알고리즘 
+Chapter 16 시계열 패턴인식의 시작:동적 계획법과 DTW 
+Chapter 17 음성인식의 기수:은닉 마르코프 모델(HMM) 
+Chapter 18 최적 분류를 향한 끝없는 도전:SVM 
+Chapter 19 집약도강(集弱導强) 알고리즘:AdaBoost 
+
