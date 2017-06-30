@@ -15,7 +15,7 @@
 
 기울기 구하는법 
 - 두점의 기울기(평균 변화율) : $$ \frac{f(x)-f(a)}{x-a} $$
-- 한점의 기울기(순간 변화율) : $$ \lim_{x \rightarrow a}\frac{f(x)-f(a)}{x-a} = f\prime(a)$$
+- 한점의 기울기(순간 변화율) : $$ \lim_{x \rightarrow 0}\frac{f(x)-f(a)}{x-a} = f\prime(a)=\frac{d}{dx}f(x)$$
 
 > 두점(x, a)의 사이를 아주 가깝게 하여 x=a로 만듬
 
@@ -31,7 +31,17 @@
 
 원래   $$\Delta = d $$는 같은것이지만 필요에 의해 둘을 다른 의미로 사용 
 - $$\Delta$$ :  변화량
-- $$\ d$$ : $$\lim_{\Delta x \rightarrow 0}되 \Delta $$
+- $$\ d$$ : $$\lim_{\Delta x \rightarrow 0}된 \Delta $$
+
+|기호|의미||
+|-|-|-|
+|$$\Delta$$|인접한 두 변수의 차이||
+|$$d$$|두변수의 극미한차이||
+|$$\partial$$|다변수함수에 대한 하나의 변수에 대한 변화량(편미분)||
+|$$\bar d$$|통계적인 변수의 변화량||
+
+
+
 
 ## 3. $$\frac{dy}{dx} = \frac{d}{dx}y$$에 대한 고찰 
 
@@ -98,9 +108,16 @@ $$y = \ln (x^2+2x) \Rightarrow y\prime = \frac{1}{x^2+2x}$$
 
 
 ### 4.4 벡터 미분 
+행렬 미분은 정확하게는 미분이 아닌 `편미분(partial derivative)`이지만 일반적으로라고 표현 편의상 미분이
 
-> 참고 : 머신러닝에서 딥러닝까지, 부록 A, DeepCuMen 
+> 참고 : 머신러닝에서 딥러닝까지, [다크 프로그래머](http://darkpgmr.tistory.com/141), [데이어트사이언스 스쿨](https://datascienceschool.net/view-notebook/8595892721714eb68be24727b5323778/)
 
+
+![](http://i.imgur.com/HlzCWHP.png)
+[증명보기](http://blog.naver.com/enewltlr/220918689039)
+
+
+## 5. 편미분 
 
 
 
