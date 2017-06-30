@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [cbu01\_탐색과 최적화](cbu01.md)
   * [jPob09\_최적화와탐색](cbu01/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
+  * [jPob10\_진화학습](cbu01/jpob10c9c4-d654-d559-c2b5.md)
   * [ref\_미분](refbbf8-bd84.md)
 * [cbu02\_지식표현 및 추론](cbu02.md)
 * [cbu03\_기계학습](cbu03ae30-acc4-d559-c2b5.md)
