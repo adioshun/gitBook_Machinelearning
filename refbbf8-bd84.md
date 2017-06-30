@@ -54,7 +54,9 @@
 
 > 출처 : [waylight3](http://waylight3.blog.me/220221644620)
 
-# 지수 함수의 미분 
+## 4. 미분의 적용
+
+### 4.1 지수 함수의 미분 
 > 출처 : [지수 로그 함수의 미분 로피탈 공식](https://youtu.be/si6ckKuXNBo)
 
 
@@ -65,7 +67,7 @@ $$y = a^{x{^2}+2x+3} \Rightarrow y\prime = a^{x{^2}+2x+3} \cdot (2x+2)\cdot \ln 
 
 > $$\ln$$=자연 로그= 실수(e)를 밑으로 하는 로그(log)
 
-# 지수 로그 함수의 미분 
+### 4.2 지수 로그 함수의 미분 
 
 미분 = 원식 * 미분식 * ln a
 
@@ -75,7 +77,7 @@ $$y=e^{x^2+x} \Rightarrow y\prime = e^{x^2+x} \cdot (2x+1) $$
 
 > 미분을 했어도 값이 줄지 않음, $$\ln$$=1이어서 생략
 
-## 로그 함수의 미분 
+### 4.3 로그 함수의 미분 
 
 $$ y = \log_a x \Rightarrow y\prime = \frac{1}{(x)\ln(a)}$$
 
@@ -92,6 +94,13 @@ $$y = \ln (x^2+2x) \Rightarrow y\prime = \frac{1}{x^2+2x}$$
 
 
 ###### [로피탈 공식]
+
+
+
+### 4.4 벡터 미분 
+
+> 참고 : 머신러닝에서 딥러닝까지, 부록 A, DeepCuMen 
+
 
 
 
