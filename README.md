@@ -86,7 +86,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * CHAPTER 18 … 가우시안 프로세스_455 
 
 
-## 머신러닝에서 딥러닝까지, Deepcumen 
+## 머신러닝에서 딥러닝까지, Deepcumen - Index code :dcm
 파트 I MACHINE LEARNING 
 * 1장 Linear Regression 
 * 2장 Logistic Regression 
