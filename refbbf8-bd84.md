@@ -64,6 +64,27 @@
 
 > 출처 : [waylight3](http://waylight3.blog.me/220221644620)
 
+### 3.1 곱의 미분 법칙
+곱의 미분 = 한쪽만 미분한 것들의 합
+
+$$(xy)\prime = x\prime y + y\prime x$$
+
+### 3.2 나눗셈의 미분 법칙
+$$(\frac{x}{y})\prime = \frac{x\prime y + y\prime x}{y^2}$$
+
+
+
+### 3.2 $$\frac{1}{x}$$의 미분 
+
+$$y = \frac{1}{x} = x^{-1} \rightarrow y\prime = -x^{-2}$$
+
+### 3.3 지수함수, 자연로그 
+
+$$y= e^x \rightarrow y\prime = e^x$$ (변화 없음)
+$$y=\ln x \rightarrow y\prime = \frac{1}{x}$$
+$$y=\ln{(ax+b)} \rightarrow y\prime = \frac{1}{(ax+b)}\times a$$
+
+
 ## 4. 미분의 적용
 
 ### 4.1 지수 함수의 미분 
