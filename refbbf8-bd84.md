@@ -107,17 +107,50 @@ $$y = \ln (x^2+2x) \Rightarrow y\prime = \frac{1}{x^2+2x}$$
 
 
 
-### 4.4 벡터 미분 
-행렬 미분은 정확하게는 미분이 아닌 `편미분(partial derivative)`이지만 일반적으로라고 표현 편의상 미분이
+### 4.4 벡터 미분
 
-> 참고 : 머신러닝에서 딥러닝까지, [다크 프로그래머](http://darkpgmr.tistory.com/141), [데이어트사이언스 스쿨](https://datascienceschool.net/view-notebook/8595892721714eb68be24727b5323778/)
+ > 참고 : 머신러닝에서 딥러닝까지 별첨A.1, [다크 프로그래머](http://darkpgmr.tistory.com/141), [[추천]데이어트사이언스 스쿨](https://datascienceschool.net/view-notebook/8595892721714eb68be24727b5323778/), [영문교과서](http://www.atmos.washington.edu/~dennis/MatrixCalculus.pdf)
 
+
+ 
+- 행렬 미분은 정확하게는 미분이 아닌 `편미분(partial derivative)`이지만 표현 편의상 미분이라고 표현 
+
+- 데이터 분석은 대부분 스칼라(y=종속변수)를 벡터(x=독립변수)로 미분 하는 경우임 : $$\frac{\partial y}{\partial x_1},\frac{\partial y}{\partial x_2},\frac{\partial y}{\partial x_3}$$
+- 결과는 그레이언트벡터(Gradient Vector)라고 하며 $$\triangledown y $$로 표기 
+$$
+\nabla y = 
+\frac{\partial y}{\partial \mathbf{x}} =
+\begin{bmatrix}
+\dfrac{\partial y}{\partial x_1}\\
+\dfrac{\partial y}{\partial x_2}\\
+\vdots\\
+\dfrac{\partial y}{\partial x_N}\\
+\end{bmatrix}
+$$
+
+- 예시 
+
+$$f(x,y)= 2x^2 + 6xy +7y^2 -26x -56y +107 $$
+
+$$
+\nabla f = 
+\begin{bmatrix}
+\dfrac{\partial f}{\partial x}\\
+\dfrac{\partial f}{\partial y}\\
+\end{bmatrix} =
+\begin{bmatrix}
+4x + 6y - 26\\
+6x + 14y - 54\\
+\end{bmatrix}
+$$
+
+
+##### [정리] 자주 쓰이는 벡터 미분 
 
 ![](http://i.imgur.com/HlzCWHP.png)
 [증명보기](http://blog.naver.com/enewltlr/220918689039)
 
 
-## 5. 편미분 
 
 
 
