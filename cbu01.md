@@ -308,6 +308,8 @@
 
 
 ## 2. 제약조건 최적화(constrained optimization)
+> 참고 : 머신러닝에서 딥러닝까지, Deepcumen, 부록 A.2
+
 정의
 - 제약조건(constraints)을 만족시키면서 목적함수를 최적화시키는 변수값들을 찾는 문제
 
