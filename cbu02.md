@@ -2,6 +2,25 @@
 
 #  지식 표현 및 추론 
 
+## 0. 용어 정리 
+
+### 1.1 Entropy 
+- 정보량, 정보를 전달하기 위한 평균 bit 갯수 
+- Bit의 expected value = $$E(X) = \sum_i p(X_i)X_i$$
+
+$$
+H(X) = - \sum_{i=1}^n p(x_1)log_2(p(x_1))
+$$
+
+### 1.2 Conditional Entropy 
+x의 값이 정해 졌을때 y를 전달하기 위해 필요한 bit 갯수의 평균
+
+$$
+H(Y|X=x) = \sum_{y\in Y} p(y|x)log p(y|x)
+$$
+
+
+
 ## 1. 지식 표현 
 
 ### 1.1 정의 
