@@ -2,8 +2,8 @@
 
 ![](http://i.imgur.com/zIHT4N4.png)
 [기계학습 2](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
-- 결정트리 (0:00:00~0:49:00)
-- 앙상블 (0:49:01 ~
+
+- 신경망/딥러닝/강화 학습은 별도 Chapter에서 정리
 
 ## 1. 결정 트리 
 
