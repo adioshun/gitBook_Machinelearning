@@ -9,7 +9,10 @@
 충북대학교 이건명 교수, 2016, [[링크:Kocw.net]](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
 - <del>탐색과 최적화 1~2</del>
 - <del>지식표현 및 추론 1~4</del>
-- 기계학습 1~4
+- 기계학습 1: 개요
+- 기계학습 2: 결정트리, 앙상블 분류기, k-근접이웃알고리즘, 군집화 알고리즘, 단순 베이즈 분류기
+- 기계학습 3: 딥러닝
+- 기계학습 4: 서포트벡터 머신(SVM)
 - 강화 학습
 
 ## Introduction-to-Artificial-Intelligence-Machine-Learning - Index code : week

@@ -8,7 +8,7 @@
   * [kb11\_최적화 알고리즘](cbu01/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
   * dcm\_A\_C 라그랑지\_최적화
 * [cbu02\_지식표현 및 추론](cbu02.md)
-* [cbu03\_A\_기계학습\_결정트리](cbu03ae30-acc4-d559-c2b5.md)
+* [cbu03\_기계학습](cbu03ae30-acc4-d559-c2b5.md)
 * [w01\_Motivation\_basics](w01motivation-basics.md)
 * [w02\_Fundeamental\_of\_ML](w02fundeamental-of-ml.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
