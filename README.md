@@ -62,8 +62,11 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 9장 특징 선택 
 * 10장 군집화 
 * 11장 최적화 알고리즘 
+    * <del>미분/라그랑제 승수<del>
+    * <del>시뮬레이티드 어닐링<del>
+    * 유전 알고리즘 
 * 12장 혼성 모델 
-* <del>부록A 정보 이론</del> : cbu02,
+* <del>부록A 정보 이론</del> 
 
 ## 알고리즘 중심의 머신러닝 가이드 - Index code : jPob
 * CHAPTER 1 … 들어가기에 앞서_1 
