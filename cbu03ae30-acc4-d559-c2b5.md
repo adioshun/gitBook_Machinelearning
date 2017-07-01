@@ -1,8 +1,6 @@
 # 기계학습 
 
 ![](http://i.imgur.com/zIHT4N4.png)
-[기계학습 2](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
-
 - 신경망/딥러닝/강화 학습은 별도 Chapter에서 정리
 
 ## 1. 결정 트리 
@@ -208,4 +206,14 @@ CART 알고리즘
 
 ![](http://i.imgur.com/NjYJQJF.png)
 
+## 5. Support Vector Machine (SVM)
+- Vladimir Vapnik이 제안
+- 분류 오차를 줄이면서 동시에 여백을 최대로 하는 결정 경계(decision boundary)를 찾는 이진 분류기(binary classifier)
 
+> 분류 문제를 해결 하는 방법 
+
+![](http://i.imgur.com/uF7mAZO.png)
+
+여백(margin): 결정 경계와 가장 가까이에 있는 학습 데이터까지의 거리
+
+서포트 벡터(support vector): 결정 경계로부터 가장 가까이에 있는 학습 데이터들
