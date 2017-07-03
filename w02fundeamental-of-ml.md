@@ -39,7 +39,10 @@ real world: Noise, Inconsistencies
 
 > 이러한 한계로 선택트리가 실세계에서는 잘 사용 안됨 
 
+ 
 ### 2.1 Entropy 
+
+
 - Random Variable이 얼마나 불확실성이 높은지/낮은지 평가 하는 지표 
 - Higher	entropy	means	more	uncertainty
 - 공식 : $$H(X) = - \sum_x P(X=x)\log_b P(X=x)$$
@@ -47,15 +50,15 @@ real world: Noise, Inconsistencies
     - 만일 Continuos한 경우는 $$\sum \rightarrow \int $$ 적분으로 변환하여 처리 
 
 
-#### A. Conditional Entropy
+### 2.2 Conditional Entropy
 - We are interested in the	entropy	of	the	class	given	a	feature	variable
 - Need	to	introduce	a	given	condition	in	the	entropy
 - 일반적으로  Conditional	Entropy가 적용되는 경우가 많음 
 - 공식 : $$ H(Y|X) = \sum_x P(X=x) H(Y|X =x) = \sum_x P(X=x)\{-\sum_yP(Y=y|X=x) \log_b P(Y=y|X=x\}   $$ 
+    - $$\sum_x 와 \sum_y $$로 곱으로 이루어져 있음, 조건부 확률 
     - $$\sum_x P(X=x)$$로 가중치를 주고 있음 
 
-#### B. Conditional Entropy 예시 
-
+### 2.3 Information Gain
 ![](http://i.imgur.com/plj5Ru5.png)
 
 $$H(Y|A1)$$ : A1을 Condition으로 주었을때 Y의 Entropy(불확실성)는 어떻게 되는가? 
@@ -63,9 +66,7 @@ $$H(Y|A1)$$ : A1을 Condition으로 주었을때 Y의 Entropy(불확실성)는 �
 Information Gain = $$IG(Y, A_i)=H(Y) - H(Y|A_i)$$
 - 원래 H(Y)정도의 값인데  attribute를 선택Condition, H(Y|A)하는냐에 따라 값이 변하는가(차이값)
 
-### 2.2 Top-Down Induction Algorithm.
-Many,many variations in learning a decision tree : eg. ID3, C4.5, CART…
 
-#### A. ID3 Algorithm
+## 3. Decision Tree 단점 
 
-## 3. Linear Regression
+오버피팅 문제 : 보유 데이터는 잘 맞지만, 새 데이터에는 정확성 보장 어려움 
