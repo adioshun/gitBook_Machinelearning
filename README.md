@@ -19,8 +19,10 @@
 ## Introduction-to-Artificial-Intelligence-Machine-Learning - Index code : week
 KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page_GBex27),[Youtube](https://www.youtube.com/watch?v=t6S7ekXz3aY&list=PLt9QR0WkC4WVszuogbmIIHIIQ2RMI78RC), [목차](https://1drv.ms/w/s!AkdMyVHUt0botUsxidvyzNvPVM0G), [강의자료](https://github.com/aailabkaist/Introduction-to-Artificial-Intelligence-Machine-Learning)
 
-* <del>Week 1. Motivation and basics: 최우주정법, 최대 사후 확률, 확률과 분포 </del>
-* <del>Week 2. Fundamentals of machine learning: 결정트리, 엔트로피, 정보이득</del>
+* ~~Week 1. Motivation and basics: 최우주정법, 최대 사후 확률, 확률과 분포~~
+* ~~Week 2. Fundamentals of machine learning~~
+    * ~~결정트리, 엔트로피, 정보이득~~
+    * Regression 
 * <del>Week 3. Naive Bayes Classifier</del>
 * Week 4. Logistic Regression Classifier
 * Week 5. Support Vector Machine Classifier
