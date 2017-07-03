@@ -52,7 +52,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 16 시계열 패턴인식의 시작:동적 계획법과 DTW 
 * Chapter 17 음성인식의 기수:은닉 마르코프 모델(HMM) 
 * Chapter 18 최적 분류를 향한 끝없는 도전:SVM 
-* Chapter 19 집약도강(集弱導强) 알고리즘:AdaBoost 
+* <del>Chapter 19 집약도강(集弱導强) 알고리즘:AdaBoost </del>
+    * Haar-like feature를 이용한 얼굴 추출 
 
 ## 패턴인식, 오일석 - Index code : KB
 * 1장 소개 
@@ -61,6 +62,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 4장 신경망 
 * 5장 SVM 
 * 6장 질적 분류 
+    * 결정트리 
+    * 스트링 인식기
 * 7장 순차 데이터의 인식 
 * 8장 특징 추출 
 * 9장 특징 선택 
@@ -84,8 +87,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * <del>CHAPTER 9 … 최적화와 탐색_219 </del>
 * CHAPTER 10 … 진화학습_245 
 * CHAPTER 11 … 강화학습 _269 
-* CHAPTER 12 … 트리학습_291 
-* CHAPTER 13 … 위원회의 결정: 앙상블 학습_311 
+* <del>CHAPTER 12 … 트리학습_291 </del>
+* <del>CHAPTER 13 … 위원회의 결정: 앙상블 학습_311 </del>
 * CHAPTER 14 … 비지도학습_327 
 * CHAPTER 15 … 마르코프 체인 몬테 카를로 _353 
 * CHAPTER 16 … 그래프 모델_373 
