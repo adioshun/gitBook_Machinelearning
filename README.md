@@ -45,7 +45,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 09 비모수 밀도 추정법 
 * Chapter 10 주성분 분석법(PCA)과 KL 변환 
 * Chapter 11 선형 판별 분석법: LDA 
-* Chapter 12 결정 트리 학습 알고리즘 : ID3 
+* <del>Chapter 12 결정 트리 학습 알고리즘 : ID3 </del>
 * Chapter 13 신경 세포 모델링:인공 신경망 
 * Chapter 14 뇌영역 모델링 : 자기 조직화 특징 지도 
 * Chapter 15 기발한 최적화 방법:유전 알고리즘 
