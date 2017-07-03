@@ -12,3 +12,13 @@ $$IG(X,Y)= E(Y)- \sum_{x \in X} \frac{|x|}{|X|}E(x) = E(y) - E(y|x)$$
 - $$\sum\frac{|x|}{|X|}E(x)$$ = E(x)의 예상값(expected value)
     - 각각의 label, 그리고 x라는 자질에 대한 subset으로 나눈 후 평균적인 Entropy
     - 즉, E(y|x) Conditional Entropy 
+    
+### ID3
+
+### 배깅
+
+### 부스팅
+
+### Random Forest 
+
+### Pruning
