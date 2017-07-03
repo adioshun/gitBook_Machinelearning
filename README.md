@@ -19,8 +19,8 @@
 ## Introduction-to-Artificial-Intelligence-Machine-Learning - Index code : week
 KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page_GBex27),[Youtube](https://www.youtube.com/watch?v=t6S7ekXz3aY&list=PLt9QR0WkC4WVszuogbmIIHIIQ2RMI78RC), [목차](https://1drv.ms/w/s!AkdMyVHUt0botUsxidvyzNvPVM0G), [강의자료](https://github.com/aailabkaist/Introduction-to-Artificial-Intelligence-Machine-Learning)
 
-* <del>Week 1. Motivation and basics</del>
-* <del>Week 2. Fundamentals of machine learning</del>
+* <del>Week 1. Motivation and basics: 최우주정법, 최대 사후 확률, 확률과 분포 </del>
+* <del>Week 2. Fundamentals of machine learning: 결정트리, 엔트로피, 정보이득</del>
 * <del>Week 3. Naive Bayes Classifier</del>
 * Week 4. Logistic Regression Classifier
 * Week 5. Support Vector Machine Classifier
@@ -53,6 +53,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 17 음성인식의 기수:은닉 마르코프 모델(HMM) 
 * Chapter 18 최적 분류를 향한 끝없는 도전:SVM 
 * <del>Chapter 19 집약도강(集弱導强) 알고리즘:AdaBoost </del>
+    * AdaBoost 알고리즘 
     * Haar-like feature를 이용한 얼굴 추출 
 
 ## 패턴인식, 오일석 - Index code : KB
@@ -106,7 +107,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 6장 Hidden Markov Model 
 * 7장 Conditional Random Field 
 * 8장 Recurrent Neural Network 
-* 9장 Decision Tree 
+* <del>9장 Decision Tree : ID3, 배깅, 부스팅, 랜덤포레스트</del>
 * 10장 Clustering 
 * 11장 Dimension Reduction 
 
