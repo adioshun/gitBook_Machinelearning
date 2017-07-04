@@ -12,4 +12,5 @@
 * [w01\_Motivation\_basics](w01motivation-basics.md)
 * [w02\_Fundeamental\_of\_ML](w02fundeamental-of-ml.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
+* [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
 
