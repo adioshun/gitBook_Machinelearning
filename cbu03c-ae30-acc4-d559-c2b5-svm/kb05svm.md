@@ -109,7 +109,7 @@ $$
 
 ###### Step 5. 문제 풀이 
 
-1. Step 3의 [조건 1]의 두 식을 $$\frac{1}{2} \parallel W \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1)$$에 대입 
+1. Step 3의 [조건 1]의 두 식을 $$ \frac{1}{2} \parallel W \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1) $$ 에 대입 
 
 2. W, b가 사라짐
 
