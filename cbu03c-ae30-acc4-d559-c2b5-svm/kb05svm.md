@@ -200,7 +200,7 @@ L공간 상의 두 벡터 x와 y를 매개 젼수로 갖는 커널 함수를 `K(
 
 #### D. 커널 대치를 이용한 목적함수 변경
 
-|원식|$$\tilde{L}(\lambda) = \sum^N_{i=1} \lambda_i - \frac{1}{2}\sum^N_{i=1} \sum^N_{j=1}\lambda_i \lambda_j t_jt_jX_i^TX_j$$|
+|원식|$$\tilde{L}(\lambda) = \sum^N_{i=1} \lambda_i - \frac{1}{2}\sum^N_{i=1} \sum^N_{j=1}\lambda_i \lambda_j t_jt_j \cdot X_i^TX_j$$|
 |-|-|
 |맵핑함수|$$\tilde{L}(\lambda) = \sum^N_{i=1} \lambda_i - \frac{1}{2}\sum^N_{i=1} \sum^N_{j=1}\lambda_i \lambda_j t_jt_j \cdot \Phi(X_i)^T\Phi(X_j)$$|
 |커널함수|$$\tilde{L}(\lambda) = \sum^N_{i=1} \lambda_i - \frac{1}{2}\sum^N_{i=1} \sum^N_{j=1}\lambda_i \lambda_j t_jt_j \cdot K(X_i,X_j)$$|
