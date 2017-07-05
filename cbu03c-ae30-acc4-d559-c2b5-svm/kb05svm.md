@@ -149,32 +149,37 @@ $$
 
 ###### Step 1. 목표 정의 
 
-|조건 1|$$t_i(W^TX_i + b) \geq 1- \xi$$<br>$$ i=1,...,N$$|
+|조건 1|$$t_i(W^TX_i + b) \geq 1- \xi$$ <br> $$ i=1,...,N$$|
 |-|-|
-|조건 2|$$\xi_i \geq 0 $$<br> i = 1,...,N|
+|조건 2|$$\xi_i \geq 0 $$ <br> i = 1,...,N|
 |목표| $$J(W,\xi) = \frac{1}{2}\parallel W \parallel^2 + C\sum^N_{i=1}\xi_i$$ 최소화 |
 
 
-###### Step 2. 조건부 최적화 문제로 간소화 
+###### Step 2. 라그랑제 승수 
+> 조건이 2개 이므로 라그랑제 승수도 2개 
 
-- 조건 : $$t_i(W^TX_i + b)-1 \geq0, i=1,...,N$$
+###### Step 3. KKT 조건 
 
-- 최적화 : $$J(W) = \frac{1}{2} \parallel W \parallel ^2 $$ 
-    - $$\frac{1}{\parallel W \parallel}$$의 최대화는 $$ \parallel W \parallel ^2$$ 의 최소화와 같음 
-    - 계수 $$\frac{1}{2}$$는 계산 편리를 위해 추가 
-
-
-
-
-
-
-
-
-
-
+###### Step 4. Wolfe 듀얼 변환 
 
 
 ## 4. 비선형 SVM 
+
+커널(Kernel)을 사용함으로써 문제 해결 
+- 커널 사용이 가능한 이유 : 유도 공식에 `벡터가 내적 형태`($$X_i^TX_j$$)로 존재 하여서 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
