@@ -35,7 +35,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 
 ---
 
-## 패턴인식 개론, 한학용, 한빛 미디어 Index code : HB
+## 패턴인식 개론, 한학용, 한빛 미디어 Index code : HB [[한글정리]](https://github.com/anyway-good-study/s2e01-patternrecognition/wiki/5%EC%9E%A5.-SVM)
 
 * Chapter 01 | 패턴인식의 개요 
 * <del>Chapter 02 선형 대수학 : 벡터와 행렬 </del>
