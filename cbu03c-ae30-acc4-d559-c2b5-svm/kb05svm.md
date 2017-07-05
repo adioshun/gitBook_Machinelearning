@@ -77,10 +77,10 @@ $$
 |-|-|-|
 |조건 1|라그랑제 함수를 미분한식이 0이 되어야 한다.<br> $$\frac{\partial L(\theta, \lambda)}{\partial \theta}=0$$|$$\frac{\partial L(W, b, \lambda)}{\partial W}=0 \rightarrow W = \sum^N_{i=1} \lambda_it_iX_i$$|
 |||$$\frac{\partial L(W, b, \lambda)}{\partial b}=0 \rightarrow \sum^N_{i=1} \lambda_it_i=0$$|
-|조건 2|모든 라그랑제 승수가 0보다 크거나 같아야 한다. <br>$$\lambda_i \geq 0, i=1,...,n$$|$$\lambda_i \geq0, i=1,...,N$$|
-|조건 3|모든 조건식에 대해 $$\lambda =0$$ 이거나 $$f_i(\theta)=0$$이 되어야 한다.<br> $$\lambda_i f_i(\theta)=0, i=1,...,n$$ |$$\lambda_i(t_i(W^TX_i + b)-1)=0, i=1,...,N$$|
+|조건 2|모든 라그랑제 승수가 0보다 크거나 같아야 한다. <br>$$\lambda_i \geq 0, i=1,...,n$$|$$\lambda_i \geq0$$ <br> $$i=1,...,N$$|
+|조건 3|모든 조건식에 대해 $$\lambda =0$$ 이거나 $$f_i(\theta)=0$$이 되어야 한다.<br> $$\lambda_i f_i(\theta)=0, i=1,...,n$$ |$$\lambda_i(t_i(W^TX_i + b)-1)=0$$ <br> $$ i=1,...,N$$|
 
-
+[살펴볼점]
 조건 3 : 모든 샘플에 대해 $$\lambda =0$$ 이거나 $$f_i(\theta)=0$$이 되어야 한다 
 - $$\lambda \neq 0$$인 샘플은 $$t_i(W^TX_i + b)=1$$이어야 하는데 이들이 바로 Support Vector이다.
 - $$\lambda = 0$$는 일반 샘플들이다. 
@@ -125,6 +125,51 @@ $$
 > 예제 문제 풀어 보기 : 패턴인식 오일석, 147p 예제 5.2
 
 ## 3. 선형 분리 불가능한 상황
+
+![](http://i.imgur.com/Etdi9Vd.png)
+![](http://i.imgur.com/ALLBUA8.png)
+$$\xi$$(Slack variable)
+
+### 3.1 목표 정의 
+
+아래를 동시에 만족하는 결정 초평면의 방향(W)를 찾아라 
+- 여백을 될수 있는 한 크게 하며 (목적1)
+- $$0 < \xi$$한 샘플수(경우 1,2)를 가능한 작게 한다 (목적2) 
+
+$$
+
+J(W,\xi) = \frac{1}{2}\parallel W \parallel^2 + C\sum^N_{i=1}\xi_i
+
+$$
+- 첫항 : 목적 1
+- 두번쨰 항 : 목적 2
+- C: 가중치 매개 변수 
+    - C=0 :목적 2무시, 틀리는 샘플수에 개의치 않고 여백을 되 수 있는 대로 크게 한다
+    - C=무한대 : 목적 2만 고려, 
+
+###### Step 1. 목표 정의 
+
+|조건 1|$$t_i(W^TX_i + b) \geq 1- \xi$$<br>$$ i=1,...,N$$|
+|-|-|
+|조건 2|$$\xi_i \geq 0 $$<br> i = 1,...,N|
+|목표| $$J(W,\xi) = \frac{1}{2}\parallel W \parallel^2 + C\sum^N_{i=1}\xi_i$$ 최소화 |
+
+
+###### Step 2. 조건부 최적화 문제로 간소화 
+
+- 조건 : $$t_i(W^TX_i + b)-1 \geq0, i=1,...,N$$
+
+- 최적화 : $$J(W) = \frac{1}{2} \parallel W \parallel ^2 $$ 
+    - $$\frac{1}{\parallel W \parallel}$$의 최대화는 $$ \parallel W \parallel ^2$$ 의 최소화와 같음 
+    - 계수 $$\frac{1}{2}$$는 계산 편리를 위해 추가 
+
+
+
+
+
+
+
+
 
 
 
