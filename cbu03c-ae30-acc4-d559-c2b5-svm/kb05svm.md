@@ -38,13 +38,13 @@
 
 ###### Step 1. 목표 정의 
 
-훈련 집합 $$X = (값, 라벨) = {(x_1,t_1),(x_2,t_2),...(x_N,t_N)}$$
+훈련 집합 $$X = (값, 라벨) = {(x_1,t_1),(x_2,t_2),...(x_N,t_N)}$$ 일때 
 
 |조건 1|$$x_i가 \omega_1에 속하면 t_i=+1$$|$$W^TX_i + b \geq +1, \forall X_i \in \omega_1) $$|
 |-|-|
 |조건 2|$$x_i가 \omega_2에 속하면 t_i=-1$$|$$W^TX_i + b \leq -1, \forall X_i \in \omega_2) $$|
 |목표| 여백 최대화 |$$h=\frac{\mid d(x) \mid}{\parallel w \parallel} \rightarrow 2h=\frac{2\mid d(x) \mid}{\parallel w \parallel} =\frac{2}{\parallel w \parallel}$$|
-
+> h에 2는 왜 곱하지???
 
 ###### Step 2. 조건부 최적화 문제로 간소화 
 
@@ -55,10 +55,18 @@
     - 계수 $$\frac{1}{2}$$는 계산 편리를 위해 추가 
 
 
-> J(W)가 2차 항만을 가지므로 볼록함수이다. 
-> 즉, 지역(Local) 최적점에 빠지지 않는다. 
+> J(W)가 2차 항만을 가지므로 볼록함수이다. 즉, 지역(Local) 최적점에 빠지지 않는다. 
 
 ###### Step 3. 라그랑제 승수로 조건부 최적화 문제 풀이 
+
+|$$L(\theta, \lambda) = J(\theta) - \sum^n_{i=1}\lambda_i f_i(\theta) $$|
+|-|
+
+$$
+
+L(W,b,\alpha) = \frac{1}{2} \parallel w \parallel ^2 - \sum^N_{i=1} \alpha_i(t_i(W^TX_i + b)-1) 
+
+$$
 
  
 
