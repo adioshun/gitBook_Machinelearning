@@ -206,7 +206,8 @@ L공간 상의 두 벡터 x와 y를 매개 젼수로 갖는 커널 함수를 `K(
 |커널함수|$$\tilde{L}(\lambda) = \sum^N_{i=1} \lambda_i - \frac{1}{2}\sum^N_{i=1} \sum^N_{j=1}\lambda_i \lambda_j t_jt_j \cdot K(X_i,X_j)$$|
 
 
-
+SVM이 사용하는 대표적 커널 함수 
+![](http://i.imgur.com/eflzmwJ.png)
 
 
 
