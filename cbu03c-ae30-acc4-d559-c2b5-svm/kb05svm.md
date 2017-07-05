@@ -50,8 +50,8 @@
 
 - 조건 : $$t_i(W^TX_i + b)-1 \geq0, i=1,...,N$$
 
-- 최적화 : $$J(W) = \frac{1}{2} \parallel w \parallel ^2 $$ 
-    - $$\frac{1}{\parallel w \parallel}$$의 최대화는 $$ \parallel w \parallel ^2$$ 의 최소화와 같음 
+- 최적화 : $$J(W) = \frac{1}{2} \parallel W \parallel ^2 $$ 
+    - $$\frac{1}{\parallel W \parallel}$$의 최대화는 $$ \parallel W \parallel ^2$$ 의 최소화와 같음 
     - 계수 $$\frac{1}{2}$$는 계산 편리를 위해 추가 
 
 
@@ -66,7 +66,7 @@
 
 $$
 
-L(W,b,\lambda) = \frac{1}{2} \parallel w \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1) 
+L(W,b,\lambda) = \frac{1}{2} \parallel W \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1) 
 
 $$
 
@@ -97,12 +97,30 @@ $$
 - [조건 1]로 W를 얻을 수 있음 
 
 
-###### Step 4. wolfe Dual로 변형 
+###### Step 4. wolfe Dual로 변형(간편화)
 볼록성질을 만족하는 조건부 최적화 문제는 wolfe Dual로 변형 가능
+- 부등식 조건 -> 등식 조건
+- 최소화 -> 최대화 
 
-|wolfe Dual로 변형 : $$L(\theta,\lambda)=J(\theta)-\sum_{i=1,N} \lambda_if_i(\theta)$$|
-|-|
-|부등식 조건이 등식 조건으로 바뀌어 문제 해결이 쉬움|
+||변경전(Step 2)|변경후|
+|-|-|
+|조건|$$t_i(W^TX_i + b)-1 \geq0, i=1,...,N$$|KKT조건|
+|목표|$$J(W) = \frac{1}{2} \parallel W \parallel ^2 $$최소화|$$L(W,b,\lambda)=\frac{1}{2} \parallel W \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1)$$최대화|
+
+###### Step 5. 문제 풀이 
+
+1. Step 3의 [조건 1]의 두 식을 $$\frac{1}{2} \parallel W \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1)$$에 대입 
+
+2. W, b가 사라짐
+
+3. 라그랑제 승수 $$\lambda$$만 남은 식을 $$\tilde L(\lambda)$$
+
+![](http://i.imgur.com/bsLbs2y.png)
+>$$\lambda)$$을 위 식에서는 $$\alpha$$로 표기 하였음 
+
+
+
+
 
 
 
