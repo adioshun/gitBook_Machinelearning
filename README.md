@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 ## 인공지능 - Index code : cbu 
 충북대학교 이건명 교수, 2016, [[링크:Kocw.net]](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
 - <del>탐색과 최적화 1~2</del>
@@ -48,7 +41,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 09 비모수 밀도 추정법 
 * Chapter 10 주성분 분석법(PCA)과 KL 변환 
 * Chapter 11 선형 판별 분석법: LDA 
-* <del>Chapter 12 결정 트리 학습 알고리즘 : ID3 </del>
+* ~~Chapter 12 결정 트리 학습 알고리즘 : ID3~~
 * Chapter 13 신경 세포 모델링:인공 신경망 
 * Chapter 14 뇌영역 모델링 : 자기 조직화 특징 지도 
 * Chapter 15 기발한 최적화 방법:유전 알고리즘 
@@ -66,7 +59,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 2장 베이시언 결정 이론 
 * 3장 확률 분포 추정 
 * 4장 신경망 
-* 5장 SVM 
+* ~~5장 SVM~~ 
 * 6장 질적 분류 
     * 결정트리 
     * 스트링 인식기
