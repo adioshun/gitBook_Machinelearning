@@ -10,6 +10,7 @@
 * [cbu03\_A\_기계학습\_트리\_베이즈](cbu03ae30-acc4-d559-c2b5.md)
   * [dcm09\_Decision\_tree](cbu03ae30-acc4-d559-c2b5/dcm09decision-tree.md)
 * [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
+  * [KB05\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/kb05svm.md)
 * [w01\_Motivation\_basics](w01motivation-basics.md)
 * [w02\_Fundeamental\_of\_ML](w02fundeamental-of-ml.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
