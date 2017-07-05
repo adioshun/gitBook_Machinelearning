@@ -35,7 +35,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 
 ---
 
-## 패턴인식 개론, 한학용, 한빛 미디어 
+## 패턴인식 개론, 한학용, 한빛 미디어 Index code : HB
+
 * Chapter 01 | 패턴인식의 개요 
 * <del>Chapter 02 선형 대수학 : 벡터와 행렬 </del>
 * Chapter 03 기초 통계와 확률 이론 
