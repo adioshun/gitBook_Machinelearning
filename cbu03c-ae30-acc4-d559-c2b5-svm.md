@@ -23,4 +23,3 @@
 
 
 ---
-[초평면 거리 계산하기](https://cpuu.postype.com/post/599833)
