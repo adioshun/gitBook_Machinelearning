@@ -57,18 +57,35 @@
 
 > J(W)가 2차 항만을 가지므로 볼록함수이다. 즉, 지역(Local) 최적점에 빠지지 않는다. 
 
-###### Step 3. 라그랑제 승수로 조건부 최적화 문제 풀이 
+###### Step 3. 라그랑제 승수로 정의
+
+조건부 최적화는 `라그랑제 승수`로 도입하여 푼다. 
 
 |$$L(\theta, \lambda) = J(\theta) - \sum^n_{i=1}\lambda_i f_i(\theta) $$|
 |-|
 
 $$
 
-L(W,b,\alpha) = \frac{1}{2} \parallel w \parallel ^2 - \sum^N_{i=1} \alpha_i(t_i(W^TX_i + b)-1) 
+L(W,b,\lambda) = \frac{1}{2} \parallel w \parallel ^2 - \sum^N_{i=1} \lambda_i(t_i(W^TX_i + b)-1) 
 
 $$
 
  
+###### Step 3. KKT조건으로 문제 풀이 
+
+부등식 조건부 최적화 문제는  `KKT 조건`으로 푼다. 
+
+||Karush-Kuhn-Tucker(KKT) 3 조건 |문제풀이|
+|-|-|-|
+|조건 1|라그랑제 함수를 미분한식이 0이 되어야 한다.<br> $$\frac{\partial L(\theta, \lambda)}{\partial \theta}=0$$|$$\frac{\partial L(W, b, \lambda)}{\partial W}=0 \rightarrow W = \sum^N_{i=1} \lambda_it_iX_i$$|
+|||$$\frac{\partial L(W, b, \lambda)}{\partial b}=0 \rightarrow \sum^N_{i=1} \lambda_it_i=0$$|
+|조건 2|모든 라그랑제 승수가 0보다 크거나 같아야 한다. <br>$$\lambda_i \geq 0, i=1,...,n$$|$$\lambda_i \geq0, i=1,...,N$$|
+|조건 3|모든 조건식에 대해 $$\lambda =0$$ 이거나 $$f_i(\theta)=0$$이 되어야 한다.<br> $$\lambda_i f_i(\theta)=0, i=1,...,n$$ |$$\lambda_i(t_i(W^TX_i + b)-1)=0, i=1,...,N$$|
+
+
+
+
+
 
 
 
