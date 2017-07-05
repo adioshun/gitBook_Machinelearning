@@ -97,6 +97,15 @@ $$
 - [조건 1]로 W를 얻을 수 있음 
 
 
+###### Step 4. wolfe Dual로 변형 
+볼록성질을 만족하는 조건부 최적화 문제는 wolfe Dual로 변형 가능
+
+|wolfe Dual로 변형 : $$L(\theta,\lambda)=J(\theta)-\sum_{i=1,N} \lambda_if_i(\theta)$$|
+|-|
+|부등식 조건이 등식 조건으로 바뀌어 문제 해결이 쉬움|
+
+
+
 
 
 
