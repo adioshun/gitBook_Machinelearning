@@ -47,7 +47,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 15 기발한 최적화 방법:유전 알고리즘 
 * Chapter 16 시계열 패턴인식의 시작:동적 계획법과 DTW 
 * Chapter 17 음성인식의 기수:은닉 마르코프 모델(HMM) 
-* Chapter 18 최적 분류를 향한 끝없는 도전:SVM 
+* ~~Chapter 18 최적 분류를 향한 끝없는 도전:SVM~~
+    * 라그랑제상수, KKT,  wolfe Dual
 * <del>Chapter 19 집약도강(集弱導强) 알고리즘:AdaBoost </del>
     * AdaBoost 알고리즘 
     * Haar-like feature를 이용한 얼굴 추출 
@@ -74,7 +75,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 12장 혼성 모델 
 * <del>부록A 정보 이론</del> 
 
-## 알고리즘 중심의 머신러닝 가이드 - Index code : jPob
+## 알고리즘 중심의 머신러닝 가이드 - Index code : jPub
 * CHAPTER 1 … 들어가기에 앞서_1 
 * CHAPTER 2 … 들어가며_19 
 * CHAPTER 3 … 뉴런, 뉴럴 네트워크, 선형 판별식_47 
