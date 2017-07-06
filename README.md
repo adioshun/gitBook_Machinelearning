@@ -83,7 +83,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * CHAPTER 5 … 방사 기저 함수와 스플라인_131 
 * CHAPTER 6 … 차원 축소_151 
 * CHAPTER 7 … 확률학습_177 
-* CHAPTER 8 … 서포트 벡터 머신_195 
+* ~~CHAPTER 8 … 서포트 벡터 머신_195~~ 
 * <del>CHAPTER 9 … 최적화와 탐색_219 </del>
 * CHAPTER 10 … 진화학습_245 
 * CHAPTER 11 … 강화학습 _269 
@@ -101,12 +101,12 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 1장 Linear Regression 
 * 2장 Logistic Regression 
 * 3장 Feed-forward Neural Networks 
-* 4장 Support Vector Machine 
+* ~~4장 Support Vector Machine~~ 
 * 5장 Naive Bayesian 
 * 6장 Hidden Markov Model 
 * 7장 Conditional Random Field 
 * 8장 Recurrent Neural Network 
-* <del>9장 Decision Tree : ID3, 배깅, 부스팅, 랜덤포레스트</del>
+* ~~9장 Decision Tree : ID3, 배깅, 부스팅, 랜덤포레스트~~
 * 10장 Clustering 
 * 11장 Dimension Reduction 
 
@@ -117,7 +117,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * 15장 Convolutional Neural Network 
 
 파트 III 부록 
-* <del>A 벡터 </del>
+* ~~A 벡터~~
     * A.2 라그랑지 승수법 
-* <del>B 정보이론 </del>
+* ~~B 정보이론~~
 * C 최적화

@@ -16,10 +16,55 @@
 
 - 서포트 벡터(support vector): 결정 경계로부터 가장 가까이에 있는 학습 데이터들, 결정 경계를 결정하게 되는 요소들
 
+## 1. 개요
 
 
 
+경계선는 평면(H), 데이터는 점(x) 
 
+편면의 식 : $$h(x) = w_1x_1 + w_2x_2 + ..w_dx_d + b = w^T \cdot x + b =0 $$
+- w : 가중치 
+- x : 입력 
+- b : 절편
+
+경계선위의 임의의 벡터(a에서 x1)는 법선벡터(w)와 수직이므로 내적은 `0`이 된다. 
+- $$w \cdot (x'-a) = 0 \rightarrow w^Tx' -w^Ta = 0$$
+
+
+
+### 1.1 여백(Margin)을 계산 하는 식 
+![](http://i.imgur.com/gXlSIyR.png)
+
+###### Step 1. $$x = x_p + r\frac{w}{\parallel w \parallel}$$
+- x의 위치는 0점에서 $$x_p$$까지 이동 후 r만큼 이동한것  
+- $$x_p$$ :  x를 프로젝션 하였을때의 값
+- $$\frac{w}{\parallel w \parallel}$$: 단위 벡터 
+
+###### Step 2. $$w^Tx = w^Tx_p + r\frac{w^Tw}{\parallel w \parallel}$$
+- 첫 식에 양변에 $$w^T$$를 곱하면 아래식이 됨
+
+###### Step 3. $$w^Tx = w^Tx_p + r\parallel w \parallel$$
+- 위식에서 $$w^Tw=w^2$$이므로 변환 
+- $$r\parallel w \parallel$$: norm, w벡터 크기 
+
+###### Step 4. $$w^Tx + b = w^Tx_p + b + r\parallel w \parallel$$
+- 위식에서 양변에 b를 더함 
+
+###### Step 5. $$w^Tx + b = h(x) = 0 + r\parallel w \parallel$$
+- $$x_p$$는 평면에 위치한 점 
+- 즉, 평면의 식 공식$$w^Tx+b=0$$을 $$w^Tx_p+b$$에 대입
+
+ 
+######  Step 6. 임의의 점(x)와 경계선의 거리(h) = r = 마진 
+
+$$h(x) = 0 + r\parallel w \parallel $$
+$$ r = \frac{h(x)}{\parallel w \parallel} $$
+
+
+######  [예제] x가 0일떄 거리($$r_0$$)는?
+
+$$r_0 = \frac{h(0)}{\parallel w \parallel} = \frac{b}{\parallel w \parallel}$$
+- $$h(x) = w^T \cdot x + b $$
 
 
 ---
