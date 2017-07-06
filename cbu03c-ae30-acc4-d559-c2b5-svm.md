@@ -85,9 +85,14 @@ h(x) = 1
 
 ## 2. 최적화 문제 풀기 
 
+라그랑즈 함수 조건 
+![](http://i.imgur.com/8CgArpf.png)
+
+
+SVM 문제 
 ![](http://i.imgur.com/G5VK8BH.png)
 
-풀기 쉽게 하기 위해(맞나??) $$t_ih(x_i) \geq 1을 $1-t_ih(x_i) \leq 0$$로변환 
+라그랑주 함수 조건$$h(x) \leq 0$$과 맞추기 위해 $$t_ih(x_i) \geq 1을 $1-t_ih(x_i) \leq 0$$로변환 
 
 
 
