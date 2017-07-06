@@ -19,3 +19,8 @@ $$y=W \cdot X + b $$
 |최종 목표|
 |-|
 |$$Min \frac{1}{2}W^TW$$ subject to $$t_i(W^TX_i + b) \geq 1 $$
+
+
+---
+
+참고 : [SVM Tutorial](https://www.svm-tutorial.com/)
