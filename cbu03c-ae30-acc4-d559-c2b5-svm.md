@@ -32,7 +32,7 @@
 
 
 
-### 1.1 여백(Margin)을 계산 하는 식 
+### 1.1 여백(Margin)을 계산 공식 유도  
 ![](http://i.imgur.com/gXlSIyR.png)
 
 ###### Step 1. $$x = x_p + r\frac{w}{\parallel w \parallel}$$
@@ -66,5 +66,11 @@ $$ r = \frac{h(x)}{\parallel w \parallel} $$
 $$r_0 = \frac{h(0)}{\parallel w \parallel} = \frac{b}{\parallel w \parallel}$$
 - $$h(x) = w^T \cdot x + b $$
 
+### 1.2 SVM 공식 유도
+
+#### A. 서포트 벡터까지의 거리가 1이 되어야 함   
+h(x) = 1 
+
+> 나머지 값(서포트 벡터가 아닌)은 1이상 : $$h(x) \geq1$$
 
 ---
