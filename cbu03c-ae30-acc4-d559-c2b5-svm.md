@@ -85,6 +85,7 @@ h(x) = 1
 
 ## 2. 최적화 문제 풀기 
 
+### 2.1 라그랑즈 승수 
 ||원식|적용식|
 |-|-|-|
 |조건|![](http://i.imgur.com/8CgArpf.png)|![](http://i.imgur.com/RHvubC4.png)|
@@ -92,29 +93,56 @@ h(x) = 1
 |라그랑즈함수|![](http://i.imgur.com/32dlWV4.png)|![](http://i.imgur.com/8ezIzm0.png)|
 
 
+### 2.2 KKT 조건 
+
+![](http://i.imgur.com/9GYM7av.png)
+
+1. 라그랑즈 승수 조건 : 0보다 커야 함 
+2. 부등식 제약 조건h(x) 0보다 작아햐 함(위에서 그래서 변환함)
+3. 상보적 여유성(Complementary Slackness)조건 
+ = 라그랑즈 승수 $$\times$$ 부등식 제약 조건 = 0
 
 
 
+#### 2.3 쌍대 함수 
+
+![](http://i.imgur.com/KPghOdX.png)
+
+라그랑즈 함수를 w,b로 편미분해서 $$\alpha$$만 남아 있는 식으로 변경 
+
+![](http://i.imgur.com/tno2YB0.png)
+$$t_ix_i$$는 학습 데이터 이므로 $$\alpha$$만 남음 
 
 
+#### 2.4 초평면 함수식에 적용 
+
+쌍대 함수에서 구한 2개 식을 적용 
+
+![](http://i.imgur.com/xLWP9zl.png)
 
 
+#### 2.5 [정리] 
+
+###### Step 1. 본 문제 -> 쌍대 문제 : 문제 복잡도 감소 
+
+![](http://i.imgur.com/fBuUMGM.png)
 
 
+###### Step 2. 쌍대함수 최대화 -> 쌍대함수 최소
+방법 : 양변에 -1을 곱하기 
+
+![](http://i.imgur.com/y3FqivG.png)
 
 
+> 그냥 최대화 문제 풀면 안되나? 알고리즘들이 최소화 문제 대상이라 그런가 (???)
 
-라그랑즈 함수 조건 
+###### Step 3. 이차식 계획법 
 
+쌍대함수 최소화 문제는 $$\alpha$$입장에서 보면 2차식 문제 
 
+![](http://i.imgur.com/z9fMKwW.png)
 
-
-
-SVM 문제 
-
-
-
-
+> Python의 solvers.qp()라이브러리로 해결 가능 
 
 
 
