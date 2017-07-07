@@ -16,4 +16,6 @@
 * [w02\_Fundeamental\_of\_ML](w02fundeamental-of-ml.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
 * [cbu03\_A\_기계학습\_군집알고리즘](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
+* [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
+  * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 
