@@ -3,10 +3,10 @@
 - <del>탐색과 최적화 1~2</del>
 - <del>지식표현 및 추론 1~4</del>
 - 기계학습
-    - <del>1: 개요</del>
-    - <del> 2: 결정트리, 앙상블 분류기, k-근접이웃알고리즘, 군집화 알고리즘, 단순 베이즈 분류기</del>
+    - ~~1: 개요~~
+    - ~~2: 결정트리, 앙상블 분류기, k-근접이웃알고리즘, 군집화 알고리즘, 단순 베이즈 분류기~~
     - 3: 딥러닝
-    - 4: 서포트벡터 머신(SVM)
+    - ~~4: 서포트벡터 머신(SVM)~~
 - 강화 학습
 
 ## Introduction-to-Artificial-Intelligence-Machine-Learning - Index code : week
@@ -72,7 +72,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
     * <del>미분/라그랑제 승수<del>
     * <del>시뮬레이티드 어닐링<del>
     * 유전 알고리즘 
-* 12장 혼성 모델 
+* 12장 혼성 모델 : 앙상
 * <del>부록A 정보 이론</del> 
 
 ## 알고리즘 중심의 머신러닝 가이드 - Index code : jPub
