@@ -158,8 +158,10 @@ $$t_ix_i$$는 학습 데이터 이므로 $$\alpha$$만 남음
 
 고차원 변환의 문제점
 - 차원의 저주(curse of dimensionality) 문제 발생
-- 테스트 데이터에 대한 일반화(generalization) 능력 저하 가능 :여백(margin) 최대화를 통해 일반화 능력 유지
-- 계산 비용 증가 : 커널 트릭(kernel trick) 사용으로 해결
+- 테스트 데이터에 대한 일반화(generalization) 능력 저하 가능
+ - SVM은 여백(margin) 최대화를 통해 일반화 능력 유지
+- 계산 비용 증가
+ - SVM은 커널 트릭(kernel trick) 사용으로 해결
 
 ### 4.1 커널 트릭 
 
