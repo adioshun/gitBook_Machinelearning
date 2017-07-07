@@ -55,7 +55,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 
 ## 패턴인식, 오일석 - Index code : KB [[ppt자료]](http://ryan0802.tistory.com/100)
 
-* 1장 소개 
+* ~~1장 소개~~ 
 * 2장 베이시언 결정 이론 
 * 3장 확률 분포 추정 : K-근접이웃, EM알고리즘
 * 4장 신경망 
