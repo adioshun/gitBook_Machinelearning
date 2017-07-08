@@ -35,6 +35,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 03 기초 통계와 확률 이론 
 * Chapter 04 확률변수와 확률분포 
 * Chapter 05 통계적 결정이론과 확률밀도함수의 추정 
+
+
 * Chapter 06 선형 분류기와 이차 분류기 
 * Chapter 07 데이터 마이닝의 시작: 백터 양자화와 클러스터링
 * Chapter 08 견고한 확률 모델 : 가우시안 혼합 모델(GMM) 
@@ -58,6 +60,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * ~~1장 소개~~ 
 * 2장 베이시언 결정 이론 
 * 3장 확률 분포 추정 : K-근접이웃, EM알고리즘
+
+
 * 4장 신경망 
 * ~~5장 SVM~~ 
 * 6장 질적 분류 
