@@ -20,6 +20,6 @@
 * [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
   * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
-  * [ref\_확률추정분포\_우도](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
   * [KB03\_확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
+  * [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
 
