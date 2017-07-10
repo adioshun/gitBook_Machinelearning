@@ -34,7 +34,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * <del>Chapter 02 선형 대수학 : 벡터와 행렬 </del>
 * Chapter 03 기초 통계와 확률 이론 
 * Chapter 04 확률변수와 확률분포 
-* Chapter 05 통계적 결정이론과 확률밀도함수의 추정 
+* ~~Chapter 05 통계적 결정이론과 확률밀도함수의 추정: 우도비검증, 확률 밀도 추정 ~~
 
 
 * Chapter 06 선형 분류기와 이차 분류기 
