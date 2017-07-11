@@ -22,4 +22,5 @@
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
   * [KB03\_확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
   * [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
+* [KB0809\_특징생성\_추출+선택](kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
 
