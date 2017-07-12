@@ -31,7 +31,7 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 ## 패턴인식 개론, 한학용, 한빛 미디어 Index code : HB [[한글정리]](https://github.com/anyway-good-study/s2e01-patternrecognition/wiki/5%EC%9E%A5.-SVM)
 
 * Chapter 01 | 패턴인식의 개요 
-* <del>Chapter 02 선형 대수학 : 벡터와 행렬 </del>
+* ~~Chapter 02 선형 대수학 : 벡터와 행렬~~
 * Chapter 03 기초 통계와 확률 이론 
 * Chapter 04 확률변수와 확률분포 
 * ~~Chapter 05 통계적 결정이론과 확률밀도함수의 추정: 우도비검증, 확률 밀도 추정~~
@@ -58,8 +58,6 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * ~~1장 소개~~ 
 * 2장 베이시언 결정 이론 
 * 3장 확률 분포 추정 : K-근접이웃, EM알고리즘
-
-
 * 4장 신경망 
 * ~~5장 SVM~~ 
 * 6장 질적 분류 
