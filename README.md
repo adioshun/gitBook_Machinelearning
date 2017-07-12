@@ -39,8 +39,8 @@ KAIST, 문일철 교수, 2016, [홈페이지](http://seslab.kaist.ac.kr/xe2/page
 * Chapter 07 데이터 마이닝의 시작: 백터 양자화와 클러스터링
 * Chapter 08 견고한 확률 모델 : 가우시안 혼합 모델(GMM) 
 * ~~Chapter 09 비모수 밀도 추정법~~ 
-* Chapter 10 주성분 분석법(PCA)과 KL 변환 
-* Chapter 11 선형 판별 분석법: LDA 
+* ~~Chapter 10 주성분 분석법(PCA)과 KL 변환~~ 
+* ~~Chapter 11 선형 판별 분석법: LDA~~ 
 * ~~Chapter 12 결정 트리 학습 알고리즘 : ID3~~
 * Chapter 13 신경 세포 모델링:인공 신경망 
 * Chapter 14 뇌영역 모델링 : 자기 조직화 특징 지도 
