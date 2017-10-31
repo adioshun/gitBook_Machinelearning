@@ -25,5 +25,4 @@
 * [KB0809\_특징생성\_추출+선택](kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
 * [KB07\_Hidden\_Markov\_Model](kb07hidden-markov-model.md)
 * [ref\_DataVisualization](refdatavisualization.md)
-* [Norm](norm.md)
 
