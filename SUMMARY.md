@@ -1,27 +1,44 @@
 # Summary
 
 * [Introduction](README.md)
-* [cbu01\_탐색과 최적화](cbu01.md)
-  * [jPub09\_최적화와탐색](cbu01/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
-  * [jPub10\_진화학습](cbu01/jpob10c9c4-d654-d559-c2b5.md)
-  * [kb11\_최적화 알고리즘](cbu01/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
-  * [dcm\_A\_C 라그랑지\_최적화](cbu01/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
-* [cbu02\_지식표현 및 추론\_정보이론](cbu02.md)
-* [cbu03\_A\_기계학습\_트리](cbu03ae30-acc4-d559-c2b5.md)
-  * [dcm09\_Decision\_tree](cbu03ae30-acc4-d559-c2b5/dcm09decision-tree.md)
-  * [w02\_Fundeamental\_of\_ML\_정보이론](w02fundeamental-of-ml.md)
-* [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
-  * [KB05\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/kb05svm.md)
-  * [jPub08\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/jpub08svm.md)
+
+## 지도학습 기반 회귀
+
+
+## 지도학습 기반 분류 
+* -Naive Bayes Classifier
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
-  * [cbu\_A\_기계학습\_단순 베이즈 분류기](w03naive-bayes-classifier/cbua-ae30-acc4-d559-c2b5-b2e8-c21c-bca0-c774-c988-bd84-b958-ae30.md)
-  * [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
-* [cbu03\_A\_기계학습\_군집알고리즘](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
+* [cbu\_A\_기계학습\_단순 베이즈 분류기](w03naive-bayes-classifier/cbua-ae30-acc4-d559-c2b5-b2e8-c21c-bca0-c774-c988-bd84-b958-ae30.md)
+* [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
+* -Decision Tree
+* [cbu03\_A\_기계학습\_트리](cbu03ae30-acc4-d559-c2b5.md)
+* [dcm09\_Decision\_tree](cbu03ae30-acc4-d559-c2b5/dcm09decision-tree.md)
+* [w02\_Fundeamental\_of\_ML\_정보이론](w02fundeamental-of-ml.md)
+* -SVM
+* [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
+* [KB05\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/kb05svm.md)
+* [jPub08\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/jpub08svm.md)
+* -Ensemble
 * [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
-  * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
+* [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
-  * [KB03\_확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
-  * [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
+* [KB03\_확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
+
+
+## 비지도 학습 
+* [cbu03\_A\_기계학습\_군집알고리즘](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
+
+
+## 최적화 
+* [cbu01\_탐색과 최적화](cbu01.md)
+* [jPub09\_최적화와탐색](cbu01/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
+* [jPub10\_진화학습](cbu01/jpob10c9c4-d654-d559-c2b5.md)
+* [kb11\_최적화 알고리즘](cbu01/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
+* [dcm\_A\_C 라그랑지\_최적화](cbu01/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
+
+## 참고 
+* [ref01\_지식표현 및 추론\_정보이론](cbu02.md)
+* [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
 * [KB0809\_특징생성\_추출+선택](kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
 * [KB07\_Hidden\_Markov\_Model](kb07hidden-markov-model.md)
 * [ref\_DataVisualization](refdatavisualization.md)
