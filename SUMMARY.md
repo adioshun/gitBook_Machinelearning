@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [List\_of\_Machine\_Learning](listof-machine-learning.md)
+* [book.json](bookjson.md)
 
 ## 지도학습 기반 회귀
 
