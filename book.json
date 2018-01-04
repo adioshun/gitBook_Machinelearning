@@ -1,3 +1,9 @@
 {
-    "plugins": ["katex"]
+    "plugins": ["katex", "page-toc-button"],
+    "pluginsConfig": {
+        "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+           }
+    }
 }
