@@ -1,5 +1,5 @@
 {
-    "plugins": ["katex", "page-toc-button"],
+    "plugins": ["page-toc-button"],
     "pluginsConfig": {
         "page-toc-button": {
             "maxTocDepth": 2,
@@ -7,3 +7,9 @@
            }
     }
 }
+
+{
+    "plugins": ["latex-codecogs"]
+}
+
+
