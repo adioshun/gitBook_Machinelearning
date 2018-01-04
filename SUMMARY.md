@@ -14,11 +14,13 @@
 * [cbu03\_A\_기계학습\_트리](cbu03ae30-acc4-d559-c2b5.md)
 * [dcm09\_Decision\_tree](cbu03ae30-acc4-d559-c2b5/dcm09decision-tree.md)
 * [w02\_Fundeamental\_of\_ML\_정보이론](w02fundeamental-of-ml.md)
-* ------ SVM
+
+### SVM
 * [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
 * [KB05\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/kb05svm.md)
 * [jPub08\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/jpub08svm.md)
-* ------ Ensemble
+
+### Ensemble
 * [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
 * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
