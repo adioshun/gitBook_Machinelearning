@@ -24,6 +24,7 @@
 * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
 * [KB03\_확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
+* [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
 
 ## 비지도 학습
 
@@ -40,7 +41,6 @@
 ## 참고
 
 * [ref01\_지식표현 및 추론\_정보이론](cbu02.md)
-* [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
 * [KB0809\_특징생성\_추출+선택](kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
 * [KB07\_Hidden\_Markov\_Model](kb07hidden-markov-model.md)
 * [ref\_DataVisualization](refdatavisualization.md)
