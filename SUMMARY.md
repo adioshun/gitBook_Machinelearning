@@ -7,7 +7,7 @@
 
 ## 지도학습 기반 분류
 
-* ------ Naive Bayes Classifier
+* [------ Naive Bayes Classifier](-naive-bayes-classifier.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
 * [cbu\_A\_기계학습\_단순 베이즈 분류기](w03naive-bayes-classifier/cbua-ae30-acc4-d559-c2b5-b2e8-c21c-bca0-c774-c988-bd84-b958-ae30.md)
 * [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
@@ -23,8 +23,6 @@
 * [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
 * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
-* [확률 분포 추정\_MLE\_MAP](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815.md)
-* [ref\_Likelihood](w03naive-bayes-classifier/kb03d655-b960-bd84-d3ec-cd94-c815/refd655-b960-cd94-c815-bd84-d3ec-c6b0-b3c4.md)
 
 ## 비지도 학습
 
