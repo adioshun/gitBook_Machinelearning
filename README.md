@@ -2,6 +2,17 @@
 
 > 아래 자료를 기반으로 분류 재 정리 : [Machine learning by sogood](https://www.slideshare.net/SGoodKim/machine-learning-by-sogood)
 
+---
+
+|메인 주제|확률 분포 추정|
+|-|-|
+|키워드||
+|참고자료|오일석3장, |
+
+
+---
+
+
 
 ## 인공지능 - Index code : cbu 
 충북대학교 이건명 교수, 2016, [[링크:Kocw.net]](http://www.kocw.net/home/cview.do?lid=79a36e94d86a2ddc)
