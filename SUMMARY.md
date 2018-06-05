@@ -12,17 +12,20 @@
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
 * [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
 
-### Decision Tree
+## Decision Tree
+
 * [cbu03\_A\_기계학습\_트리](cbu03ae30-acc4-d559-c2b5.md)
 * [dcm09\_Decision\_tree](cbu03ae30-acc4-d559-c2b5/dcm09decision-tree.md)
 * [w02\_Fundeamental\_of\_ML\_정보이론](w02fundeamental-of-ml.md)
 
-### SVM
+## SVM
+
 * [cbu03\_C\_기계학습\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm.md)
 * [KB05\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/kb05svm.md)
 * [jPub08\_SVM](cbu03c-ae30-acc4-d559-c2b5-svm/jpub08svm.md)
 
-### Ensemble
+## Ensemble
+
 * [KB12\_혼성모델\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
 * [cbu03\_C\_기계학습\_앙상블](kb12d63c-c131-baa8-b378-c559-c0c1-be14/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
@@ -30,6 +33,7 @@
 ## 비지도 학습
 
 * [cbu03\_A\_기계학습\_군집알고리즘](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
+  * [K-means 클러스터링](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998/k-means-d074-b7ec-c2a4-d130-b9c1.md)
 
 ## 최적화
 
