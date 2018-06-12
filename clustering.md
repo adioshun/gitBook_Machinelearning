@@ -36,7 +36,7 @@ $$ Cov(X,Y) = E \left[(X-\mu_x)(Y-\mu_y) \right] , \mu = 평균$$
 |![image](https://user-images.githubusercontent.com/17797922/40976309-9a69c00c-6882-11e8-8dd3-bc4b3846834f.png)|![image](https://user-images.githubusercontent.com/17797922/40976327-aedac18a-6882-11e8-8f83-6690531e52cd.png)|![image](https://user-images.githubusercontent.com/17797922/40978071-87854ef2-6887-11e8-9785-27911ef9936e.png)|
 |-|-|-|
 
-
+> [clustering valuation(군집 모델 평가하기)](http://woolulu.tistory.com/50): ARI, NMI
 
 ### 1.1 분류
 
