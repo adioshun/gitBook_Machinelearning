@@ -32,8 +32,10 @@
 
 ## 비지도 학습
 
-* [cbu03\_A\_기계학습\_군집알고리즘](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
-  * [K-means 클러스터링](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998/k-means-d074-b7ec-c2a4-d130-b9c1.md)
+* [개요\_비지도 학습](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
+* 차원축소
+* [Clustering](clustering.md)
+* [K-means 클러스터링](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998/k-means-d074-b7ec-c2a4-d130-b9c1.md)
 
 ## 최적화
 
