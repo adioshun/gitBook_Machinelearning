@@ -2,7 +2,7 @@
 
 > 개선 버젼 = OPTICS (It does not need the epsilon parameter (except for performance reasons with index support)
 
-Euclidean clustering, or DBSCAN. 
+
 
 전체 클러스터 수는 모르지만 일부 정보`(min_samples, max_dist)`를 알고 있을때 사용 `You may not know how many clusters to expect, but you do know something about how the points should be clustered (min_samples, max_dist). `
 
