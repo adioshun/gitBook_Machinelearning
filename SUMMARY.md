@@ -6,6 +6,7 @@
 * [References](listof-machine-learning.md)
 
 ## 지도학습 기반 분류
+
 * [README](Supervised/README.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
 * [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
@@ -29,12 +30,13 @@
 * [jPub07\_확률학습](jpub07d655-b960-d559-c2b5.md)
 
 ## 비지도 학습
+
 * [README](Unsupervised/README.md)
 * [Clusterting](Unsupervised/Clustering/README.md)
+  * [K-mean Clustering](Unsupervised/Clustering/k-mean-clustering.md)
 * [개요\_비지도 학습](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
 * [차원축소](cc28-c6d0-cd95-c18c.md)
 * [Clustering](clustering.md)
-* [K-means 클러스터링](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998/k-means-d074-b7ec-c2a4-d130-b9c1.md)
 
 ## 최적화
 
