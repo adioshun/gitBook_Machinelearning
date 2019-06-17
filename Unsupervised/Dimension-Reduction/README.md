@@ -40,4 +40,4 @@ Feature extraction의 예로는
 
 ---
 
-- [차원축소와 특징선택이란 무엇인가](http://terryum.io/korean/2016/05/05/FeatureSelection_KOR/)
+- [차원축소와 특징선택이란 무엇인가?](http://terryum.io/korean/2016/05/05/FeatureSelection_KOR/)
