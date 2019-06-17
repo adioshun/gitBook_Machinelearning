@@ -42,6 +42,9 @@
   * [References](Unsupervised/Clustering/references.md)
 * [개요\_비지도 학습](cbu03a-ae30-acc4-d559-c2b5-ad70-c9d1-c54c-ace0-b9ac-c998.md)
 * [차원축소](cc28-c6d0-cd95-c18c.md)
+* [Dimension Reduction](Unsupervised/Dimension-Reduction/README.md)
+  * [PCA](Unsupervised/Dimension-Reduction/PCA.md)
+
 * [Clustering](clustering.md)
 
 ## 최적화
