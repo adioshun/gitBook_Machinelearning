@@ -50,6 +50,7 @@
 * [jPub10\_진화학습](Optimization/jpob10c9c4-d654-d559-c2b5.md)
 * [kb11\_최적화 알고리즘](Optimization/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
 * [dcm\_A\_C 라그랑지\_최적화](Optimization/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
+* [Lib GPyOpt](Optimization/Lib-GPyOpt.md)
 
 ## 참고
 
