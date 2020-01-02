@@ -39,11 +39,11 @@
 
 ## 최적화
 
-* [cbu01\_탐색과 최적화](cbu01.md)
-* [jPub09\_최적화와탐색](cbu01/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
-* [jPub10\_진화학습](cbu01/jpob10c9c4-d654-d559-c2b5.md)
-* [kb11\_최적화 알고리즘](cbu01/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
-* [dcm\_A\_C 라그랑지\_최적화](cbu01/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
+* [cbu01\_탐색과 최적화](Optimization/cbu01.md)
+* [jPub09\_최적화와탐색](Optimization/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
+* [jPub10\_진화학습](Optimization/jpob10c9c4-d654-d559-c2b5.md)
+* [kb11\_최적화 알고리즘](Optimization/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
+* [dcm\_A\_C 라그랑지\_최적화](Optimization/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
 
 ## 참고
 
