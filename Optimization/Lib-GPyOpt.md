@@ -13,6 +13,8 @@ pip install gpyopt --user
   python setup.py develop
 ```
 
+>  GPy only supports python 2.7 and not python 3
+
 ## [실행 방법 ](https://sheffieldml.github.io/GPyOpt/firstexamples/index.html)
 
 ####  python 콘솔 
