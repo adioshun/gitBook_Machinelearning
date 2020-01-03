@@ -184,6 +184,7 @@ myBopt2D.plot_convergence()
 
 
 ```python 
+
 %pylab inline  
 import GPy
 import GPyOpt
@@ -256,6 +257,7 @@ plot(X_train,Y_train,'rx',label='ground truth')
 plot(X_test,Y_test,'rx')
 legend(loc='best')
 print("RMSE = "+str(np.sqrt(np.square(Y_test_pred-Y_test).mean())))
+
 ```
 
 
