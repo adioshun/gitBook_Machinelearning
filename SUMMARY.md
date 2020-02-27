@@ -10,6 +10,7 @@
 * [README](Supervised/README.md)
 * [w03\_Naive Bayes Classifier](w03naive-bayes-classifier.md)
 * [KB02\_베이시언결정이론](w03naive-bayes-classifier/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
+* [Curve Fitting](Supervised/Curve-Fitting.md)
 
 ## Decision Tree
 
