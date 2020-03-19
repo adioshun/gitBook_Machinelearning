@@ -35,12 +35,12 @@
 ## Unsupervised-Learning
 
 * [README](unsupervised-learning/readme.md)
-* [Clustering](unsupervised-learning/clustering-1/README.md)
-  * [Parametric-Model-based](unsupervised-learning/clustering-1/parametric-model-based/README.md)
-    * [K-mean Clustering](unsupervised-learning/clustering-1/parametric-model-based/k-mean-clustering.md)
-  * [Graph-based](unsupervised-learning/clustering-1/graph-based/README.md)
-    * [Spectral-Clustering](unsupervised-learning/clustering-1/graph-based/spectral-clustering/README.md)
-      * [Min-Cut](unsupervised-learning/clustering-1/graph-based/spectral-clustering/min-cut.md)
+* [Clustering](unsupervised-learning/clustering/README.md)
+  * [Parametric-Model-based](unsupervised-learning/clustering/parametric-model-based/README.md)
+    * [K-mean Clustering](unsupervised-learning/clustering/parametric-model-based/k-mean-clustering.md)
+  * [Graph-based](unsupervised-learning/clustering/graph-based/README.md)
+    * [Spectral-Clustering](unsupervised-learning/clustering/graph-based/spectral-clustering/README.md)
+      * [Min-Cut](unsupervised-learning/clustering/graph-based/spectral-clustering/min-cut.md)
 * [Dimension-Reduction](unsupervised-learning/dimension-reduction/README.md)
   * [PCA](unsupervised-learning/dimension-reduction/pca.md)
 
