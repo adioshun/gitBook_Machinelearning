@@ -34,6 +34,7 @@
 
 ## 비지도 학습 <a id="undefined-2"></a>
 
+* [Clustering](undefined-2/clustering-1.md)
 * [README](undefined-2/unsupervised.md)
 * [Clusterting](undefined-2/clustering/README.md)
   * [Spectral Clustering](undefined-2/clustering/spectral-clustering/README.md)
@@ -63,5 +64,4 @@
 * [KB0809\_특징생성\_추출+선택](undefined-4/kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
 * [KB07\_Hidden\_Markov\_Model](undefined-4/kb07hidden-markov-model.md)
 * [ref\_DataVisualization](undefined-4/refdatavisualization.md)
-* [Clustering](clustering.md)
 
