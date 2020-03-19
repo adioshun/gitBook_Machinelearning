@@ -32,12 +32,20 @@
 * [cbu03\_C\_기계학습\_앙상블](ensemble/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](ensemble/jpub07d655-b960-d559-c2b5.md)
 
+## Unsupervised-Learning
+
+* [README](unsupervised-learning/readme/README.md)
+  * [Dimension-Reduction](unsupervised-learning/readme/dimension-reduction.md)
+  * [Clustering](unsupervised-learning/readme/clustering-1/README.md)
+    * [Parametric-Model-based](unsupervised-learning/readme/clustering-1/parametric-model-based.md)
+    * [Graph-based](unsupervised-learning/readme/clustering-1/graph-based/README.md)
+      * [Spectral-Clustering](unsupervised-learning/readme/clustering-1/graph-based/spectral-clustering/README.md)
+        * [Min-Cut](unsupervised-learning/readme/clustering-1/graph-based/spectral-clustering/min-cut.md)
+
 ## 비지도 학습 <a id="undefined-2"></a>
 
 * [README](undefined-2/unsupervised.md)
 * [Clusterting](undefined-2/clustering/README.md)
-  * [Spectral Clustering](undefined-2/clustering/spectral-clustering/README.md)
-    * [Min-Cut](undefined-2/clustering/spectral-clustering/min-cut.md)
   * [K-mean Clustering](undefined-2/clustering/k-mean-clustering.md)
   * [DBSCAN](undefined-2/clustering/dbscan.md)
   * [OPTIC](undefined-2/clustering/optic.md)
@@ -71,9 +79,4 @@
 ## Clustering
 
 * [README](clustering/readme.md)
-
-## Unsupervised-Learning
-
-* [README](unsupervised-learning/readme/README.md)
-  * [Clustering](unsupervised-learning/readme/clustering.md)
 

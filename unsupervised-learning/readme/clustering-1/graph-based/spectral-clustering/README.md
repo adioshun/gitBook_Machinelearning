@@ -1,4 +1,6 @@
-# Spectral Clustering
+# Spectral-Clustering
+
+
 
 > [https://brunch.co.kr/@mathpresso/11](https://brunch.co.kr/@mathpresso/11)
 >
