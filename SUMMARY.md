@@ -34,7 +34,6 @@
 
 ## 비지도 학습 <a id="undefined-2"></a>
 
-* [Clustering](undefined-2/clustering-1.md)
 * [README](undefined-2/unsupervised.md)
 * [Clusterting](undefined-2/clustering/README.md)
   * [Spectral Clustering](undefined-2/clustering/spectral-clustering/README.md)
@@ -72,4 +71,8 @@
 ## Clustering
 
 * [README](clustering/readme.md)
+
+## Unsupervised-Learning
+
+* [README](unsupervised-learning/readme.md)
 
