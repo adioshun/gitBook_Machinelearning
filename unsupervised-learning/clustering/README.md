@@ -2,6 +2,14 @@
 
 ## 접근 방법
 
+> \[A Semi-Supervised Approach for Kernel-Based Temporal Clustering\]\([https://www.semanticscholar.org/paper/A-Semi-Supervised-Approach-for-Kernel-Based-Araujo/51796da9284df8eae3a9ab6f2731f27fa8900095](https://www.semanticscholar.org/paper/A-Semi-Supervised-Approach-for-Kernel-Based-Araujo/51796da9284df8eae3a9ab6f2731f27fa8900095)\)
+
+![](../../.gitbook/assets/image%20%281%29.png)
+
+### 
+
+### \*\*\*\*
+
 ### **매개변수 모델 기반 방식\(Parametric Model-based\) :**
 
 1.  주어진 데이터를 가지고 임의의 그룹 중심점을 찾은 다음 반복적으로 그룹의 중심점을 찾아가는 과정
