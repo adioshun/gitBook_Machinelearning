@@ -35,9 +35,11 @@
 ## Unsupervised-Learning
 
 * [README](unsupervised-learning/readme/README.md)
-  * [Dimension-Reduction](unsupervised-learning/readme/dimension-reduction.md)
+  * [Dimension-Reduction](unsupervised-learning/readme/dimension-reduction/README.md)
+    * [PCA](unsupervised-learning/readme/dimension-reduction/pca.md)
   * [Clustering](unsupervised-learning/readme/clustering-1/README.md)
-    * [Parametric-Model-based](unsupervised-learning/readme/clustering-1/parametric-model-based.md)
+    * [Parametric-Model-based](unsupervised-learning/readme/clustering-1/parametric-model-based/README.md)
+      * [K-mean Clustering](unsupervised-learning/readme/clustering-1/parametric-model-based/k-mean-clustering.md)
     * [Graph-based](unsupervised-learning/readme/clustering-1/graph-based/README.md)
       * [Spectral-Clustering](unsupervised-learning/readme/clustering-1/graph-based/spectral-clustering/README.md)
         * [Min-Cut](unsupervised-learning/readme/clustering-1/graph-based/spectral-clustering/min-cut.md)
@@ -46,15 +48,12 @@
 
 * [README](undefined-2/unsupervised.md)
 * [Clusterting](undefined-2/clustering/README.md)
-  * [K-mean Clustering](undefined-2/clustering/k-mean-clustering.md)
   * [DBSCAN](undefined-2/clustering/dbscan.md)
   * [OPTIC](undefined-2/clustering/optic.md)
   * [CCL](undefined-2/clustering/ccl.md)
   * [Hierarchical Clustering](undefined-2/clustering/hierarchical-clustering.md)
   * [Neural Networks Clustering](undefined-2/clustering/neural-networks-clustering.md)
   * [References](undefined-2/clustering/references.md)
-* [Dimension Reduction](undefined-2/dimension-reduction/README.md)
-  * [PCA](undefined-2/dimension-reduction/pca.md)
 
 ## 최적화 <a id="undefined-3"></a>
 
