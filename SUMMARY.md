@@ -74,5 +74,6 @@
 
 ## Unsupervised-Learning
 
-* [README](unsupervised-learning/readme.md)
+* [README](unsupervised-learning/readme/README.md)
+  * [Clustering](unsupervised-learning/readme/clustering.md)
 
