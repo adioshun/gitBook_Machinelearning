@@ -14,6 +14,24 @@
 * [KB02\_베이시언결정이론](supervised-learning/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
 * [Curve Fitting](supervised-learning/curve-fitting.md)
 
+## 비지도학습기반 <a id="unsupervised-learning"></a>
+
+* [README](unsupervised-learning/readme.md)
+* [Clustering](unsupervised-learning/clustering/README.md)
+  * [Neural Networks Clustering](unsupervised-learning/clustering/neural-networks-clustering.md)
+  * [Parametric-Model-based](unsupervised-learning/clustering/parametric-model-based/README.md)
+    * [CCL](unsupervised-learning/clustering/parametric-model-based/ccl.md)
+    * [OPTIC](unsupervised-learning/clustering/parametric-model-based/optic.md)
+    * [DBSCAN](unsupervised-learning/clustering/parametric-model-based/dbscan.md)
+    * [Hierarchical Clustering](unsupervised-learning/clustering/parametric-model-based/hierarchical-clustering.md)
+    * [K-mean Clustering](unsupervised-learning/clustering/parametric-model-based/k-mean-clustering.md)
+  * [Graph-based](unsupervised-learning/clustering/graph-based/README.md)
+    * [Spectral-Clustering](unsupervised-learning/clustering/graph-based/spectral-clustering/README.md)
+      * [Min-Cut](unsupervised-learning/clustering/graph-based/spectral-clustering/min-cut.md)
+* [Dimension-Reduction](unsupervised-learning/dimension-reduction/README.md)
+  * [PCA](unsupervised-learning/dimension-reduction/pca.md)
+* [References](unsupervised-learning/references.md)
+
 ## Decision Tree
 
 * [cbu03\_A\_기계학습\_트리](decision-tree/cbu03ae30-acc4-d559-c2b5.md)
@@ -31,24 +49,6 @@
 * [KB12\_혼성모델\_앙상블](ensemble/kb12d63c-c131-baa8-b378-c559-c0c1-be14.md)
 * [cbu03\_C\_기계학습\_앙상블](ensemble/cbu03c-ae30-acc4-d559-c2b5-c559-c0c1-be14.md)
 * [jPub07\_확률학습](ensemble/jpub07d655-b960-d559-c2b5.md)
-
-## Unsupervised-Learning
-
-* [README](unsupervised-learning/readme.md)
-* [Clustering](unsupervised-learning/clustering/README.md)
-  * [Neural Networks Clustering](unsupervised-learning/clustering/neural-networks-clustering.md)
-  * [Parametric-Model-based](unsupervised-learning/clustering/parametric-model-based/README.md)
-    * [CCL](unsupervised-learning/clustering/parametric-model-based/ccl.md)
-    * [OPTIC](unsupervised-learning/clustering/parametric-model-based/optic.md)
-    * [DBSCAN](unsupervised-learning/clustering/parametric-model-based/dbscan.md)
-    * [Hierarchical Clustering](unsupervised-learning/clustering/parametric-model-based/hierarchical-clustering.md)
-    * [K-mean Clustering](unsupervised-learning/clustering/parametric-model-based/k-mean-clustering.md)
-  * [Graph-based](unsupervised-learning/clustering/graph-based/README.md)
-    * [Spectral-Clustering](unsupervised-learning/clustering/graph-based/spectral-clustering/README.md)
-      * [Min-Cut](unsupervised-learning/clustering/graph-based/spectral-clustering/min-cut.md)
-* [Dimension-Reduction](unsupervised-learning/dimension-reduction/README.md)
-  * [PCA](unsupervised-learning/dimension-reduction/pca.md)
-* [References](unsupervised-learning/references.md)
 
 ## 최적화 <a id="optimization"></a>
 
