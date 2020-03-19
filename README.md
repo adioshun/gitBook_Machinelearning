@@ -2,15 +2,15 @@
 
 ## 머신러닝
 
-* [README](undefined/readme.md)
-* [References](undefined/listof-machine-learning.md)
+* [README](intro/readme.md)
+* [References](intro/listof-machine-learning.md)
 
 ## 지도학습 기반 회귀
 
 ## 지도학습 기반 분류
 
-* [w03\_Naive Bayes Classifier](undefined-1/w03naive-bayes-classifier.md)
-* [KB02\_베이시언결정이론](undefined-1/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
+* [w03\_Naive Bayes Classifier](supervised-learning/w03naive-bayes-classifier.md)
+* [KB02\_베이시언결정이론](supervised-learning/kb02bca0-c774-c2dc-c5b8-acb0-c815-c774-b860.md)
 
 ## Decision Tree
 
@@ -39,16 +39,16 @@
 
 ## 최적화
 
-* [cbu01\_탐색과 최적화](undefined-3/cbu01.md)
-* [jPub09\_최적화와탐색](undefined-3/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
-* [jPub10\_진화학습](undefined-3/jpob10c9c4-d654-d559-c2b5.md)
-* [kb11\_최적화 알고리즘](undefined-3/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
-* [dcm\_A\_C 라그랑지\_최적화](undefined-3/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
+* [cbu01\_탐색과 최적화](optimization/cbu01.md)
+* [jPub09\_최적화와탐색](optimization/jpob09cd5c-c801-d654-c640-d0d0-c0c9.md)
+* [jPub10\_진화학습](optimization/jpob10c9c4-d654-d559-c2b5.md)
+* [kb11\_최적화 알고리즘](optimization/kb11cd5c-c801-d654-c54c-ace0-b9ac-c998.md)
+* [dcm\_A\_C 라그랑지\_최적화](optimization/dcma-c-b77c-adf8-b791-c9c0-cd5c-c801-d654.md)
 
 ## 참고
 
-* [ref01\_지식표현 및 추론\_정보이론](undefined-4/cbu02.md)
-* [KB0809\_특징생성\_추출+선택](undefined-4/kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
-* [KB07\_Hidden\_Markov\_Model](undefined-4/kb07hidden-markov-model.md)
-* [ref\_DataVisualization](undefined-4/refdatavisualization.md)
+* [ref01\_지식표현 및 추론\_정보이론](appendix/cbu02.md)
+* [KB0809\_특징생성\_추출+선택](appendix/kb0809d2b9-c9d5-c0dd-c131-cd94-cd9c+-c120-d0dd.md)
+* [KB07\_Hidden\_Markov\_Model](appendix/kb07hidden-markov-model.md)
+* [ref\_DataVisualization](appendix/refdatavisualization.md)
 
