@@ -1,6 +1,6 @@
 # Clustering
 
-## 접근 방법
+## 분류 기준 1
 
 > \[A Semi-Supervised Approach for Kernel-Based Temporal Clustering\]\([https://www.semanticscholar.org/paper/A-Semi-Supervised-Approach-for-Kernel-Based-Araujo/51796da9284df8eae3a9ab6f2731f27fa8900095](https://www.semanticscholar.org/paper/A-Semi-Supervised-Approach-for-Kernel-Based-Araujo/51796da9284df8eae3a9ab6f2731f27fa8900095)\)
 
@@ -37,4 +37,22 @@ Spectral Clustering 알고리즘이 이 방법을 사용한 클러스터링 알�
 그래프 기반 방식은 각 데이터의 점들과 다른 점 사이에 선을 긋고 두 데이터 사이의 유사도에 따라 비중을 부여하는 방식입니다. 그래프 기반 방식에 따르면 두 데이터의 유사점이 많으면 비중을 키우고, 유사점이 낮으면 비중을 낮추는 식으로 하여 이를 기준으로 별개의 그룹으로 나누는 방식입니다.
 
 장점 : 결과값이 거의 일정하게 나온다
+
+
+
+## 분류 기준 2
+
+### 중심기반 \(center-based\)
+
+#### k-means clustering
+
+### 
+
+### 밀도 기반 \(density-based\)
+
+#### 평균 이동 
+
+#### DBSCAN 
+
+### 계층적 
 

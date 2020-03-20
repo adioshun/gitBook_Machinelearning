@@ -1,6 +1,8 @@
 # DBSCAN
 
 > 개선 버젼 = OPTICS \(It does not need the epsilon parameter \(except for performance reasons with index support\)
+>
+> [EPS, MinPts 조정방법](https://leedakyeong.tistory.com/entry/R-DBSCAN-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%EC%A1%B0%EC%A0%95%EB%B0%A9%EB%B2%95-in-r-How-to-select-parameters-for-dbscan-in-r?category=843676)
 
 전체 클러스터 수는 모르지만 일부 정보`(min_samples, max_dist)`를 알고 있을때 사용 `You may not know how many clusters to expect, but you do know something about how the points should be clustered (min_samples, max_dist).`
 
@@ -116,4 +118,5 @@ plt.show()
 * 조대협, [클러스터링 \#3 - DBSCAN \(밀도 기반 클러스터링\)](http://bcho.tistory.com/1205)
 * M. Ester, H.-P. Kriegel, J. Sander, X. Xu, and others. A density-based algorithm for discovering clusters in large spatial databases with noise. In Kdd, volume 96, pages 226–231, 1996.
 * [Clustering Algorithms:K-means and DBSCAN](https://docs.google.com/presentation/d/1o_rTjzkK7_q672rociNBu11R5dEDlACtrWrfR34FQ3s/edit#slide=id.p): ppt, Python코드 포함
+* [https://ybeaning.tistory.com/27](https://ybeaning.tistory.com/27)
 
