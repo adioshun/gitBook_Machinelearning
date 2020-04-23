@@ -53,7 +53,8 @@
 
 ## IOU
 
-![](https://hoya012.github.io/assets/img/object_detection_fourth/fig1.PNG)
+|![](https://hoya012.github.io/assets/img/object_detection_fourth/fig1.PNG)|![](https://i.imgur.com/MiOToDt.png)|
+|-|-|
 
 Let’s say you set IoU to 0.5, in that case
 
