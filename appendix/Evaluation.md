@@ -1,65 +1,44 @@
-
-
-
-Image Classification
-
+# Evaluation 
 
 
 |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig3.PNG) |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig4.PNG)|
 |-|-|
 
+
 ![](https://i.imgur.com/atBT1ux.png)
+
+|![](https://i.imgur.com/OFpcgAc.png)|![](https://i.imgur.com/p6npcBu.png)|![](https://i.imgur.com/hf80DVr.png)|
+|-|-|-|
+|Accuracy|Error Rate|Precision|
+|![](https://i.imgur.com/3VDqaKg.png)|![](https://i.imgur.com/LPZyApp.png)|![](https://i.imgur.com/qrtq4AU.png)|
+|Recall|True negative rate(Specificity)|False Positive rate|
 
 
 ### Accuracy : 정확도 
-![](https://i.imgur.com/OFpcgAc.png)
-
 - 전체 중에 틀린걸 틀리다고, 맞는걸 맞는다고 한 경우 
 - (TP+TN)/전체 
 
-
-
-
 ###  Error Rate : 에러율 
-![](https://i.imgur.com/p6npcBu.png)
-
 - 전체 중에 잘못 분류한 비율 
 - (FN+FP) / 전체 
 
-
-
-
 ### Precision : 정밀도, (검출한 것의) 정확도
-![](https://i.imgur.com/hf80DVr.png)
-	- True라고 한것 중에서 진짜 맞는게(True) 몇개인지? Positive 정답률 `positive predictive value(PPV)`
-	- Recall의 반대 
-	- TP / (TP + FP)
+- True라고 한것 중에서 진짜 맞는게(True) 몇개인지? Positive 정답률 `positive predictive value(PPV)`
+- Recall의 반대 
+- TP / (TP + FP)
 
-
-
-
-### Sensitivility/Recall : 민감도/검출율 / 재현율 
-![](https://i.imgur.com/3VDqaKg.png)
-- 진짜 True 중 얼마나 True를 몇개나 맞추었나.   `True positive Rate`
+### Sensitivility/Recall : 민감도/검출율 / 재현율 (True positive Rate)
+- 진짜 True 중 얼마나 True를 몇개나 맞추었나. (다 맞다고 하면 Recall은 100%)
 - Precision의 반대 
 - TP / (TP + FN) 
-- 다 맞다고 하면 Recall은 100% 
 - True Set을 넣었을때 True로 인식한 것의 비율 `1이라는 값을 넣었을때 1이 나올 비율  `
 
-
-
-
-
 ### 특이도 : Specificity (True negative rate)
-![](https://i.imgur.com/LPZyApp.png)
 - 값은 Negative 로 판단한것중에, 실제 Negative 값의 비율
 - SP = TN / TN+FP
 - False Set을 넣었을때 False로 인식할 비율  `0이라는 값을 넣었을때 0이라는 결과를 얻을 비율 `
 
-
-
 ### False Positive rate
-![](https://i.imgur.com/qrtq4AU.png)
 - 원래는 Positive 값인데, 잘못해서 Negative로 판단한 비율
 - FPR = FP / N
 - 암환자 분류에 중요, 잘 맞추는 것보다 못 맞추는걸 줄이는게 필요 
