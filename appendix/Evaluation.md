@@ -24,7 +24,7 @@
 - 전체 중에 틀린걸 틀리다고, 맞는걸 맞는다고 한 경우 
 - (TP+TN)/전체 
 
-###  Error Rate : 에러율 
+### Error Rate : 에러율 
 - 전체 중에 잘못 분류한 비율 
 - (FN+FP) / 전체 
 
@@ -60,7 +60,7 @@ Let’s say you set IoU to 0.5, in that case
 
 -   IoU ≥0.5 : 제대로 탐지함 `True Positive(TP)`
 
--   IOU <0.5 : 잘못 탐지함 `False Positive(FP)
+-   IOU <0.5 : 잘못 탐지함 `False Positive(FP)`
 
 -   사물이 있는데(GT) 탐지를 못하면 : 탐지 실패 `False Negative(FN)`
 
@@ -81,14 +81,11 @@ Let’s say you set IoU to 0.5, in that case
 - 모델 선별 기준 : 파란선(x-y)보다 위쪽에 있는 경우 
 	- 왼쪽 모서리에 가까우면 좋음 
 
->  AUC : ROC는 그래프라 수치화 못함, AUC그래프의 아래 면적값을 계산 하여 수치화 (1에 가까우면 좋음)
-
-
-> 출처: [https://bcho.tistory.com/1206](https://bcho.tistory.com/1206) [조대협의 블로그]
+>  AUC : ROC는 그래프라 수치화 못함, AUC그래프의 아래 면적값을 계산 하여 수치화 (1에 가까우면 좋음)  
 ---
 
 
-## Precision Recall 그래프 
+## PR(Precision Recall) 그래프 
 
 - ROC 와 유사
 - 주로 데이타 라벨의 분포가 심하게 불균등 할때 사용
@@ -102,16 +99,8 @@ Let’s say you set IoU to 0.5, in that case
 -   Y축 : Precision = TP / (TP+FP)
     
 
-  
-  
-출처: [https://bcho.tistory.com/1206](https://bcho.tistory.com/1206) [조대협의 블로그]
 
-AP (Average Precision), mAP (mean Average Precision)
-
-### AP 
-
-
-
+### PR 그래프로 AP(Average Precision)계산 하기 
 
 Precision과 Recall은 반비례 관계를 갖기 때문에 Object Detection에서는 Average Precision, 이하 **AP** 라는 지표를 주로 사용합니다.
 - Precision과 Recall로 그래프 생성 
@@ -120,10 +109,11 @@ Precision과 Recall은 반비례 관계를 갖기 때문에 Object Detection에�
 	- 즉 11가지의 Recall 값에 따른 Precision 값들의 평균이 AP를 의미
 	- 하나의 Class(개, 고양이) 마다 고유의 AP 값을 계산할 수 있습니다.
 
-### mAP
-![](https://i.imgur.com/eFMxqgv.png)
+### AP에서 mAP (mean Average Precision)계산하기 
 
-오른쪽 각 Class마다의 AP값의 평균을 내어 왼쪽 mAP에 기입한것 
+- 단순히 오른쪽 각 Class마다의 AP값의 평균을 내어 왼쪽 mAP에 기입한것  [[조대협의 블로그]](https://bcho.tistory.com/1206)
+
+![](https://i.imgur.com/eFMxqgv.png)
 
 ---
 
