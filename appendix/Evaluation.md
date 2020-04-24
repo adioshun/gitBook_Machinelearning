@@ -30,6 +30,7 @@
 ### Accuracy : 정확도 
 - 전체 중에 틀린걸 틀리다고, 맞는걸 맞는다고 한 경우 
 - (TP+TN)/전체 
+- Precision과의 차이는? CV에서는 거의 사용 안함 [[링크 마지막 참고]](https://darkpgmr.tistory.com/162?category=460965)
 
 ### Error Rate : 에러율 
 - 전체 중에 잘못 분류한 비율 
@@ -96,8 +97,12 @@ Let’s say you set IoU to 0.5, in that case
 
 ## PR(Precision Recall) 그래프 
 
-- ROC 와 유사
-- 주로 데이타 라벨의 분포가 심하게 불균등 할때 사용
+> ROC 와 유사, 주로 데이타 라벨의 분포가 심하게 불균등 할때 사용
+
+- 검출율(recall) 0.9, 정확도(precision) 0.7 등 어느 한값으로 표현은 잘못된것..하나를 올리면 하나는 내려가므로 
+- 제대로 비교하고 평가하기 위해서는 precision과 recall의 성능변화 전체를 살펴봐야 한다 -> PR 그래프 
+- 파라미터(threshold 등) 조절에 따른 precision과 recall의 값의 변화를 그래프로 표현한 것
+
 - 모델 선별 기준 : 베이스라인(=P/P+N) 보다 위쪽에 있는 경우
 	- P는 데이타에서 Positive 레이블의 수, N 은 전체 데이타의 수  
 	- 그래프가 위로 갈수록 정확도가 높은 모델 
@@ -107,9 +112,11 @@ Let’s say you set IoU to 0.5, in that case
 -   X축 : Sensitive (Recall) = (TP) / P  
 -   Y축 : Precision = TP / (TP+FP)
     
-
+---
 
 ### PR 그래프로 AP(Average Precision)계산 하기 
+
+> PR그래프는 어떤 알고리즘의 성능을 전반적으로 파악하기는 좋으나 서로 다른 두 알고리즘의 성능을 정량적으로 비교 하기는 불편함 -> AP 사용 
 
 Precision과 Recall은 반비례 관계를 갖기 때문에 Object Detection에서는 Average Precision, 이하 **AP** 라는 지표를 주로 사용합니다.
 - Precision과 Recall로 그래프 생성 
