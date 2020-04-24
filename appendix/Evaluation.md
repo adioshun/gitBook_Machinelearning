@@ -4,13 +4,16 @@
 |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig3.PNG) |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig4.PNG)|
 |-|-|
 
-![](https://i.imgur.com/4MHBJoz.png)
+
 
 - True Positivie(TP)	True 인데, True라고 맞춘 경우(잘한 경우)
 - False Negative(FN)	True 인데 False 라고 한 경우(틀렸어요.)
 - False Positive(FP)	False 인데, True라고 한 경우(틀렸어요.)
 - True Negative(TN)	False 인데, False라고 맞춘 경우(잘한 경우)
 
+![](https://i.imgur.com/4MHBJoz.png)
+- precision 을 탐지한 바이러스 중 실제로 바이러스인 개수에 대한 비율이고
+- recall은 실제 바이러스 중에 백신이 실제로 탐지한 바이러스 개수에 대한 비율이다. (백신은 이게 더 중요 할듯)
 ---
 
 ![](https://i.imgur.com/atBT1ux.png)
