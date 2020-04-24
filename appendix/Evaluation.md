@@ -3,6 +3,7 @@
 
 |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig3.PNG) |![](https://hoya012.github.io/assets/img/object_detection_fourth/fig4.PNG)|
 |-|-|
+|![](https://i.imgur.com/4MHBJoz.png)||
 
 - True Positivie(TP)	True 인데, True라고 맞춘 경우(잘한 경우)
 - False Negative(FN)	True 인데 False 라고 한 경우(틀렸어요.)
