@@ -12,8 +12,10 @@
 - True Negative(TN)	False 인데, False라고 맞춘 경우(잘한 경우)
 
 ![](https://i.imgur.com/4MHBJoz.png)
-- precision 을 탐지한 바이러스 중 실제로 바이러스인 개수에 대한 비율이고
-- recall은 실제 바이러스 중에 백신이 실제로 탐지한 바이러스 개수에 대한 비율이다. (백신은 이게 더 중요 할듯)
+- recall은 실제 바이러스 중에 백신이 실제로 탐지한 바이러스 개수에 대한 비율 (백신은 이게 더 중요 할듯)
+
+- precision 을 탐지한 바이러스 중 실제로 바이러스인 개수에 대한 비율
+
 ---
 
 ![](https://i.imgur.com/atBT1ux.png)
@@ -33,13 +35,15 @@
 - 전체 중에 잘못 분류한 비율 
 - (FN+FP) / 전체 
 
-### Precision : 정밀도, (검출한 것의) 정확도
+### **Precision** : 정밀도, (검출한 것의) 정확도
 - True라고 한것 중에서 진짜 맞는게(True) 몇개인지? Positive 정답률 `positive predictive value(PPV)`
+- 검출된 결과가 얼마나 정확한지
 - Recall의 반대 
 - TP / (TP + FP)
 
-### Sensitivility/Recall : 민감도/검출율 / 재현율 (True positive Rate)
+### **Recall**/Sensitivility : 검출율(Detection Rate), 민감도/ 재현율 (True positive Rate)
 - 진짜 True 중 얼마나 True를 몇개나 맞추었나. (다 맞다고 하면 Recall은 100%)
+- 대상 물체들을 빠뜨리지 않고 얼마나 잘 잡아내는지
 - Precision의 반대 
 - TP / (TP + FN) 
 - True Set을 넣었을때 True로 인식한 것의 비율 `1이라는 값을 넣었을때 1이 나올 비율  `
