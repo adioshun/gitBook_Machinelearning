@@ -95,7 +95,7 @@ Let’s say you set IoU to 0.5, in that case
 ---
 
 
-## PR(Precision Recall) 그래프 
+## PR(Precision Recall) 그래프 [[상세]](https://bskyvision.com/465)
 
 > ROC 와 유사, 주로 데이타 라벨의 분포가 심하게 불균등 할때 사용
 
